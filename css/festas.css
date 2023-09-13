@@ -1,0 +1,944 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --primary-color: #127F90;
+    --main-color: #E99C52;
+    --black-color: #000000;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    transition: all .2s linear;
+}
+
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #127F90;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+/* header */
+
+header {
+    position: fixed;
+    top:0; left:0; right:0;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo {
+    display: flex;
+    width: 10rem;
+    height: 20rem;
+    margin-bottom: -60px;
+    margin-top: -60px;
+}
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #127F90;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    background: #127F90;
+    color: #E99C52;
+}
+
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+header #menu{
+    display: none;
+ }
+ header .bx-menu{
+     display: none;
+ }
+
+
+@media(max-width:991px){
+    header{
+        padding: 40px;
+    }
+
+    header .logo {
+        display: flex;
+        width: 20rem;
+        height: 22rem;
+        margin-bottom: -60px;
+        margin-top: -60px;
+    }
+
+
+    header #menu{
+       display: none;
+    }
+    header .bx-menu{
+        display: initial;
+        font-size: 10rem;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0, 0, 0, .1);    
+        display: none;
+    }
+    header .navbar ul li{
+        width: 100%;
+    }
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    header .navbar ul li ul li{
+        background: #eee;
+    }
+    header .navbar ul li ul li ul{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+
+}
+
+/* end */
+
+/* Logo */
+
+.containerLogo {
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Raleway',sans-serif;
+    color: #111111;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+.boxContainer {
+    width: 1140px;
+    min-height: 924px;
+    margin: 0 auto;
+    pointer-events: none;
+}
+.boxText {
+
+    display: flex;
+    width: 570px;
+    min-height: 315px;
+    height: auto;
+    margin: 30px auto 0;
+    pointer-events: initial;
+}
+.layoutText {
+    pointer-events: initial;
+    flex: 1;
+    max-width: 100%;
+}
+.imageTopo {
+    border-style: none;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #111111;
+    overflow: hidden;
+    position: relative;
+    width: 579px;
+    height: 239px;
+    margin: 100px auto 30px;
+}
+.containerImageTopo {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin: 38px auto 90px 0;
+    overflow: hidden;
+    pointer-events: initial;
+}
+.layoutImageTopo {
+    margin: -10px;
+}
+.containerTopo {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+}
+.boxImage1 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    background-image: url("/img/Festas/Festa1.jpg");
+    min-height: 465px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+
+.imageTopo{
+    flex: 1;
+    max-width: 100%;
+}
+
+.boxImage2 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    background-image: url("/img/Festas/Festa2.jpg");
+    min-height: 465px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+
+}
+.boxImage3 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    background-image: url("/img/Festas/Festa3.jpg");
+    min-height: 465px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+
+}
+/* end */
+
+
+/* Festas */
+
+.aboutFesta {
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Relaway',sans-serif;
+    color: #111111;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    
+}
+.imageRight {
+    border-style: none;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #111111;
+    overflow: hidden;
+    width: 100%;
+    height: 455px;
+}
+.containerTextAbout {
+    position: relative;
+    width: 1240px;
+    min-height: 532px;
+    margin: -532px auto 0;
+    pointer-events: none;
+}
+.containerStyleText {
+    display: flex;
+    width: 813px;
+    min-height: 395px;
+    height: auto;
+    margin: 69px auto;
+    pointer-events: initial;
+}
+.containerStyleMidle {
+    flex: 1;
+    max-width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+.tittleAbout {
+    text-align: center;
+    word-wrap: break-word;
+    color: #E99C52 !important;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 1.1;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 40px 20px 0;
+}
+.subTittleAbout {
+    color: inherit;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 2rem;
+    position: relative;
+    margin: 10px 20px 0;
+}
+.lineAbout {
+    pointer-events: initial;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #127F90;
+    position: relative;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    width: 200px;
+    height: 3px;
+    transform-origin: left center 0;
+    margin: 36px auto 0;
+}
+.textAbout {
+    text-align: center;
+    word-wrap: break-word;
+    color: #E99C52 !important;
+    font-style: italic;
+    position: relative;
+    font-size: 1.5rem;
+    margin: 11px 24px 40px;
+}
+
+/* end */
+
+
+/* Tipos de Festas */
+.containerServices {
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Raleway',sans-serif;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    color: #111111;
+    background-color: #f2f2f2;
+    background-image: none;
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    min-height: 861px;
+    pointer-events: none;
+}
+
+.containerCenter {
+    display: flex;
+    text-align: center;
+    width: 738px;
+    min-height: 273px;
+    height: auto;
+    margin: 36px auto 0;
+    pointer-events: initial;
+}
+.containerLayoutServices {
+    text-align: center;
+    pointer-events: initial;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tittleServices {
+    text-align: center;
+    pointer-events: initial;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    color: #127F90 !important;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    margin-bottom: 0;
+}
+.subTittleServices {
+
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    word-wrap: break-word;
+    color: #E99C52 !important;
+    position: relative;
+    font-size: 2rem;
+    margin: 20px 10px 0;
+}
+.containerDiv {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #127F90;
+    position: relative;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    width: 200px;
+    height: 3px;
+    transform-origin: left center 0;
+    margin: 37px auto 0;
+}
+.textServices {
+    word-wrap: break-word;
+    color: #E99C52 !important;
+    font-style: italic;
+    position: relative;
+    margin: 20px 10px 25px;
+    font-size: 2rem;
+}
+.layoutServices {
+    position: relative;
+    width: 1132px;
+    margin: 119px auto 43px 0;
+    pointer-events: initial;
+}
+.u-layout {
+    margin: -10px;
+}
+.u-layout-row {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+}
+.styleBoxContainer1 {
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    min-height: 410px;
+    border: 10px solid transparent;
+}
+.styleContainer1 {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.imageService1 {
+    border-style: solid;
+    border-color: #E99C52;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50% !important;
+    position: relative;
+    color: #111111;
+    overflow: hidden;
+    height: 360px;
+    object-position: 50% 17.23%;
+    background-position: 50% 17.23%;
+    width: 360px;
+    margin: -79px 0 0 auto;
+}
+.textCard1 {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    word-wrap: break-word;
+    position: relative;
+    color: #E99C52 !important;
+    font-size: 2.25rem;
+    margin: 30px 20px 36px;
+}
+.styleBoxContainer2 {
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    background-image: none;
+    min-height: 410px;
+    border: 10px solid transparent;
+}
+.styleContainer2 {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.imageService2 {
+    border-style: solid;
+    border-color: #127F90;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50% !important;
+    position: relative;
+    color: #111111;
+    overflow: hidden;
+    height: 360px;
+    width: 360px;
+    margin: -79px auto 0;
+}
+.textCard2 {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    word-wrap: break-word;
+    position: relative;
+    color: #E99C52 !important;
+    font-size: 2.25rem;
+    margin: 30px 20px 36px;
+}
+.styleBoxContainer3 {
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    background-image: none;
+    min-height: 410px;
+    border: 10px solid transparent;
+}
+.styleContainer3 {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.imageService3 {
+    border-style: solid;
+    border-color: #E99C52;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50% !important;
+    position: relative;
+    color: #111111;
+    overflow: hidden;
+    height: 360px;
+    width: 360px;
+    margin: -79px auto 0;
+}
+.textCard3 {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    word-wrap: break-word;
+    position: relative;
+    color: #E99C52 !important;
+    font-size: 2.25rem;
+    margin: 30px 20px 36px;
+}
+
+/* end */
+
+
+/* Gallery */
+.clearfix {
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+
+.right1{
+    border-style: none;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #111111;
+    overflow: hidden;
+    width: calc(((100% - 1140px) / 2) + 309px);
+    height: 322px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: initial;
+    margin-left: 0;
+
+}
+.right2{
+    border-style: none;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #111111;
+    overflow: hidden;
+    width: calc(((100% - 1140px) / 3) + 239px);
+    height: 351px;
+    margin-top: 251px;
+    margin-right: 0;
+    margin-bottom: initial;
+    margin-left: auto;
+}
+
+
+.u-clearfix {
+    position: relative;
+    width: 1140px;
+    min-height: 924px;
+    margin: -924px auto 0;
+    pointer-events: none;
+}
+.galleryContainer {
+    position: relative;
+    width: 937px;
+    margin: 94px auto 0 102px;
+    pointer-events: initial;
+}
+.layoutGallery {
+    margin: -10px;
+}
+.layoutRowGallery {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+}
+.galleySize {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("/img/Galeria/aniversario1.jpg");
+    min-height: 348px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerLayoutGallery {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+}
+.containerStyleGallery1 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("/img/Galeria/aniversario2.jpg");
+    min-height: 347px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.galleySize2 {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery2 {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery2 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 20 0 33.33333333%;
+    background-image: url("/img/Festas/Festa3.jpg");
+    min-height: 297px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerStyleGallery3 {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    flex: 20 0 33.33333333%;
+    min-height: 225px;
+    border: 10px solid transparent;
+}
+.layoutMiddle {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+.tittleh2 {
+    text-align: center;
+    word-wrap: break-word;
+    color: #E99C52 !important;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.1;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 20px 20px 0;
+}
+.textSubGallery {
+    background-color: transparent;
+    border-top-width: 0 !important;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    display: table;
+    border-style: solid;
+    border-bottom-width: 0;
+    white-space: nowrap;
+    align-self: flex-start;
+    text-decoration: none;
+    position: relative;
+    color: #127F90 !important;
+    font-size: 2rem;
+    margin: 10px auto 20px;
+}
+.containerStyleGallery4 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 20 0 33.33333333%;
+    background-image: url("/img/Galeria/aniversario3.jpg");
+    min-height: 235px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.galleySize3 {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery3 {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery5 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("/img/Galeria/casamento3.jpg");
+    min-height: 348px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerStyleGallery6 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("/img/Festas/Festa2.jpg");
+    min-height: 347px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+
+
+/* end */
+
+
+
+
+
+
+
