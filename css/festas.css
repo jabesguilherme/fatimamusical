@@ -243,7 +243,7 @@ header #menu{
     overflow: visible;
     flex: 0 0 33.33333333%;
     max-width: 33.33333333%;
-    background-image: url("/img/Festas/Festa1.jpg");
+    background-image: url("https://i.ibb.co/7tMzpdg/Festa1.jpg");
     min-height: 465px;
     background-position: 50% 50%;
     border: 10px solid transparent;
@@ -270,7 +270,7 @@ header #menu{
     overflow: visible;
     flex: 0 0 33.33333333%;
     max-width: 33.33333333%;
-    background-image: url("/img/Festas/Festa2.jpg");
+    background-image: url("https://i.ibb.co/1Ts94PJ/Festa2.jpg");
     min-height: 465px;
     background-position: 50% 50%;
     border: 10px solid transparent;
@@ -292,7 +292,7 @@ header #menu{
     overflow: visible;
     flex: 0 0 33.33333333%;
     max-width: 33.33333333%;
-    background-image: url("/img/Festas/Festa3.jpg");
+    background-image: url("https://i.ibb.co/Sd8jNmT/Festa3.jpg");
     min-height: 465px;
     background-position: 50% 50%;
     border: 10px solid transparent;
@@ -753,7 +753,7 @@ header #menu{
     color: #111111;
     overflow: visible;
     flex: 30 0 50%;
-    background-image: url("/img/Galeria/aniversario1.jpg");
+    background-image: url("https://i.ibb.co/TPBJYC8/aniversario1.jpg");
     min-height: 348px;
     background-position: 50% 50%;
     border: 10px solid transparent;
@@ -778,7 +778,7 @@ header #menu{
     color: #111111;
     overflow: visible;
     flex: 30 0 50%;
-    background-image: url("/img/Galeria/aniversario2.jpg");
+    background-image: url("https://i.ibb.co/mytxsz8/aniversario2.jpg");
     min-height: 347px;
     background-position: 50% 50%;
     border: 10px solid transparent;
@@ -809,8 +809,8 @@ header #menu{
     color: #111111;
     overflow: visible;
     flex: 20 0 33.33333333%;
-    background-image: url("/img/Festas/Festa3.jpg");
-    min-height: 297px;
+    background-image: url("https://i.ibb.co/Sd8jNmT/Festa3.jpg");
+    min-height: 397px;
     background-position: 50% 50%;
     border: 10px solid transparent;
 }
@@ -823,7 +823,7 @@ header #menu{
     background-color: transparent !important;
     opacity: 1;
     flex: 20 0 33.33333333%;
-    min-height: 225px;
+    min-height: 325px;
     border: 10px solid transparent;
 }
 .layoutMiddle {
@@ -876,8 +876,8 @@ header #menu{
     color: #111111;
     overflow: visible;
     flex: 20 0 33.33333333%;
-    background-image: url("/img/Galeria/aniversario3.jpg");
-    min-height: 235px;
+    background-image: url("https://i.ibb.co/BNLYNFt/aniversario3.jpg");
+    min-height: 335px;
     background-position: 50% 50%;
     border: 10px solid transparent;
 }
@@ -907,7 +907,7 @@ header #menu{
     color: #111111;
     overflow: visible;
     flex: 30 0 50%;
-    background-image: url("/img/Galeria/casamento3.jpg");
+    background-image: url("https://i.ibb.co/PrTvhPS/casamento3.jpg");
     min-height: 348px;
     background-position: 50% 50%;
     border: 10px solid transparent;
@@ -927,7 +927,7 @@ header #menu{
     color: #111111;
     overflow: visible;
     flex: 30 0 50%;
-    background-image: url("/img/Festas/Festa2.jpg");
+    background-image: url("https://i.ibb.co/1Ts94PJ/Festa2.jpg");
     min-height: 347px;
     background-position: 50% 50%;
     border: 10px solid transparent;

@@ -312,7 +312,7 @@ header .fa-bars{
 
 .ContainerDicas {
     overflow: visible;
-    background-image: url(/img/fundocasamentos.jpg);
+    background-image: url(https://i.ibb.co/yQtGVd7/fundocasamentos.jpg);
     text-align: center;
     object-fit: cover;
     display: block;
@@ -612,7 +612,7 @@ header .fa-bars{
 .ImageEscolhas1 {
     height: 290px;
     width: 290px;
-    background-image: url(/img/Músicos/vocalista.png);
+    background-image: url(https://i.ibb.co/7tMzpdg/Festa1.jpg);
     background-position: 50% 50%;
     margin: 0 auto;
     border-radius: 50% !important;
@@ -677,7 +677,7 @@ header .fa-bars{
 .ImageEscolhas2 {
     height: 290px;
     width: 290px;
-    background-image: url(/img/Músicos/Saxofone1.png);
+    background-image: url(https://i.ibb.co/yhsRQfn/Saxofone1.png);
     background-position: 50% 50%;
     margin: 0 auto;
     border-radius: 50% !important;
@@ -713,7 +713,7 @@ header .fa-bars{
 .ImageEscolhas3 {
     height: 290px;
     width: 290px;
-    background-image: url(/img/Músicos/cordas.jpg);
+    background-image: url(https://i.ibb.co/TPBJYC8/aniversario1.jpg);
     background-position: 50% 50%;
     margin: 0 auto;
     border-radius: 50% !important;
@@ -771,7 +771,7 @@ header .fa-bars{
     pointer-events: initial;
     width: 347px;
     height: 347px;
-    background-image: url(/img/tendencias1.jpg);
+    background-image: url(https://i.ibb.co/BNLYNFt/aniversario3.jpg);
     background-position: 50% 50%;
     margin: 110px 322px 0 auto;
     border-radius: 50% !important;
@@ -813,7 +813,7 @@ header .fa-bars{
     pointer-events: initial;
     width: 752px;
     height: 752px;
-    background-image: url(/img/tendencias2.jpg);
+    background-image: url(https://i.ibb.co/5TQrbG1/debutante2.jpg);
     background-position: 50% 50%;
     margin: 396px auto 0 0;
     border-radius: 50% !important;
@@ -833,7 +833,7 @@ header .fa-bars{
     pointer-events: initial;
     width: 435px;
     height: 435px;
-    background-image: url(/img/tendencias3.jpg);
+    background-image: url(https://i.ibb.co/1Ts94PJ/Festa2.jpg);
     background-position: 50% 50%;
     margin: -1050px 0 0 auto;
     border-radius: 50% !important;
@@ -947,7 +947,7 @@ header .fa-bars{
     pointer-events: initial;
     width: 254px;
     height: 254px;
-    background-image: url(/img/Músicos/Bateria1.png);
+    background-image: url(https://i.ibb.co/ZN8WdpP/debutante3.jpg);
     background-position: 50% 50%;
     --animation-custom_in-translate_x: -300px;
     --animation-custom_in-translate_y: 0px;
@@ -971,7 +971,7 @@ header .fa-bars{
     pointer-events: initial;
     width: 628px;
     height: 628px;
-    background-image: url(/img/Músicos/Saxofone1.png);
+    background-image: url(https://i.ibb.co/mytxsz8/aniversario2.jpg);
     background-position: 50% 50%;
     --animation-custom_in-translate_x: 50px;
     --animation-custom_in-translate_y: 0px;
@@ -995,7 +995,7 @@ header .fa-bars{
     pointer-events: initial;
     width: 435px;
     height: 435px;
-    background-image: url(/img/Músicos/cordas.jpg);
+    background-image: url(https://i.ibb.co/qgJphFL/cordas.jpg);
     background-position: 50% 50%;
     --animation-custom_in-translate_x: -300px;
     --animation-custom_in-translate_y: 0px;
@@ -1567,7 +1567,7 @@ header .fa-bars{
         animation-fill-mode: both;
         color: #111111;
         border-radius: 50% !important;
-        background-image: url("/img/Galeria/casamento1.jpg");
+        background-image: url("https://i.ibb.co/n1Q0xmz/casamento1.jpg");
         background-position: 50% 50%;
         margin: -603px auto 0 0;
         width: 313px;
@@ -1789,7 +1789,7 @@ header .fa-bars{
         width: 346%;
         text-align: center;
         color: #ffffff;
-        background-image: linear-gradient(0deg, rgba(235,235,223,.15), rgba(235,235,223,.15)), url("/img/fundocasamentos.jpg");
+        background-image: linear-gradient(0deg, rgba(235,235,223,.15), rgba(235,235,223,.15)), url("https://i.ibb.co/yQtGVd7/fundocasamentos.jpg");
         overflow: visible;
     }
     .container-block-text {
@@ -2144,7 +2144,7 @@ header .fa-bars{
         flex-shrink: 0;
         color: #111111;
         border-radius: 50% !important;
-        background-image: url("/img/Músicos/vocalista.png");
+        background-image: url("https://i.ibb.co/mytxsz8/aniversario2.jpg");
         background-position: 50% 50%;
         margin: 0 auto;
         height: 230px;
@@ -2217,7 +2217,7 @@ header .fa-bars{
         flex-shrink: 0;
         color: #111111;
         border-radius: 50% !important;
-        background-image: url("/img/Músicos/Saxofone1.png");
+        background-image: url("https://i.ibb.co/yhsRQfn/Saxofone1.png");
         background-position: 50% 50%;
         margin: 0 auto;
         height: 217px;
@@ -2258,7 +2258,7 @@ header .fa-bars{
         flex-shrink: 0;
         color: #111111;
         border-radius: 50% !important;
-        background-image: url("/img/Músicos/cello1.png");
+        background-image: url("https://i.ibb.co/mvptFyz/cello1.png");
         background-position: 50% 50%;
         margin: 0 auto;
         height: 217px;

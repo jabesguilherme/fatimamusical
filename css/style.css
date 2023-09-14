@@ -85,7 +85,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/background.png);
+    background-image: url(https://i.ibb.co/s2X4SKH/background.png);
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -589,43 +589,43 @@ header .bx-menu {
 }
 
 .thumbnails:first-child {
-    background: url(/img/Músicos/Violino1.png);
+    background: url(https://i.ibb.co/k5x5NQz/Violino1.png);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(2) {
-    background: url(/img/Músicos/Saxofone1.png);
+    background: url(https://i.ibb.co/yhsRQfn/Saxofone1.png);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(3) {
-    background: url(/img/Músicos/Bateria1.png);
+    background: url(https://i.ibb.co/b5rwf5D/Bateria1.png);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(4) {
-    background: url(/img/Músicos/vocalista.png);
+    background: url(https://i.ibb.co/T1nQv3V/vocalista.png);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(5) {
-    background: url(/img/Músicos/cello1.png);
+    background: url(https://i.ibb.co/mvptFyz/cello1.png);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(6) {
-    background: url(/img/Músicos/ContraBaixo1.png);
+    background: url(https://i.ibb.co/g99h7ss/Contra-Baixo1.png);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(7) {
-    background: url(/img/Músicos/Flauta.png);
+    background: url(https://i.ibb.co/25kFYQz/Flauta.png);
     background-size: cover;
 
 }
