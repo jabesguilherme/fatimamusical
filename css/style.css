@@ -855,7 +855,7 @@ header .bx-menu {
 /* social */
 
 .social {
-    margin-top: 30%;
+    margin-top: 40%;
     margin-left: 200px;
 }
 
@@ -917,16 +917,12 @@ header .bx-menu {
     display: flex;
     margin-left: 110%;
     margin-top: -90%;
-    border-radius: 50%;
-    width: 80%;
-    height: 80%;
+    border-radius: 10%;
+    width: 70%;
+    height: 20%;
     transition: 1s;
 }
 
-.social .row .imageSocial img:hover {
-    transform: scale(1.1);
-    border-radius: 5%;
-}
 
 /* end */
 
