@@ -1144,339 +1144,139 @@ header .fa-bars{
 
 /*  end  */
 
+/* form */
 
-/* Contratar */
+.contact {
+    text-align: center;
+    margin-right: -10%;
+    margin-left: 5%;
+    
+}
 
-.formContratar {
-    font-size: 1rem;
-    line-height: 1.6;
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    text-align: center;
-    color: #111111;
-    background-color: #f0f4ff;
-    background-image: none;
+.contact h1 {
+    font-size: 4rem;
+    margin-right: 15%;
+    color: var(--main-color);
+    text-align: end;
+    text-transform: uppercase;
 }
-.containerContratar {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: center;
-    color: #111111;
-    position: relative;
-    width: 1140px !important;
-    min-height: 1302px;
-    pointer-events: none;
+
+.contact p {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    margin-right: 15%;
+    text-align: end;
 }
-.imageLogo1 {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: center;
-    box-sizing: border-box;
-    position: relative;
-    object-fit: cover;
-    display: block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #111111;
-    border-radius: 50% !important;
-    width: 791px;
-    height: 791px;
-    background-image: url("/img/LogoFatima.png");
-    background-position: 50% 50%;
-    margin: -1509px 700px -500px auto;
-    pointer-events: initial;
-}
-.palletContratar {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: center;
-    box-sizing: border-box;
-    position: relative;
-    border-radius: 50%;
-    color: #111111;
-    background-color: #E99C52;
-    width: 245px;
-    height: 245px;
-    margin: -281px 300px 0 auto;
-    pointer-events: initial;
-}
-.alignBoxContratar {
-    font-size: 1rem;
-    line-height: 1.6;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    text-align: left;
-    border-radius: 15px !important;
-    color: #111111;
-    background-color: #ffffff;
-    width: 634px;
-    min-height: 656px;
-    background-image: none;
-    margin: 0 0 0 700px;
-    pointer-events: initial;
-}
-.boxContratar {
-    font-size: 1rem;
-    line-height: 1.6;
-    text-align: left;
-    color: #111111;
-    pointer-events: initial;
-    box-sizing: border-box;
-    position: relative;
-    flex: 1;
-    max-width: 100%;
-    transition-duration: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px 30px;
-    border-radius: 15px !important;
-}
-.tittleContratar {
-    text-align: left;
-    pointer-events: initial;
-    box-sizing: border-box;
-    color: inherit;
-    flex-shrink: 0;
-    word-wrap: break-word;
-    padding: 0;
-    font-size: 3rem;
-    line-height: 1.1;
-    font-weight: 300;
-    position: relative;
-    margin: 0 15px 0 0;
-}
-.formContratar1 {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    text-align: left;
-    color: #111111;
-    pointer-events: initial;
-    box-sizing: border-box;
-    font-size: 1rem;
-    height: auto !important;
-    flex-shrink: 0;
-    position: relative;
-    margin: 20px 25px 0 0;
-}
-.boxForm {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    text-align: left;
-    color: #111111;
-    pointer-events: initial;
-    font-size: 1rem;
-    box-sizing: border-box;
+
+.contact .row {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    margin-left: -10px;
-    width: calc(100% +  10px);
-    padding: 10px;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    margin-right: 10%;
+    
 }
-.formName {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    color: #111111;
-    pointer-events: initial;
-    font-size: 1rem;
-    box-sizing: border-box;
-    text-align: start;
-    width: 100%;
-    margin-bottom: 10px;
-    padding-left: 10px;
+
+.contact .row .image {
+    flex: 1 1 25rem;
 }
-.labelContratar {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    color: #111111;
-    pointer-events: initial;
-    font-size: 1rem;
-    text-align: start;
-    box-sizing: border-box;
-    font-weight: normal;
+
+.contact .row .image img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
 }
-.label1 {
-    -webkit-text-size-adjust: 100%;
-    pointer-events: initial;
-    box-sizing: border-box;
-    font: inherit;
-    margin: 0;
-    overflow: visible;
-    outline: none;
-    display: block;
-    width: 100%;
-    padding: 10px 12px;
-    background-image: none;
-    background-clip: padding-box;
-    border: none;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    height: auto;
-    border-radius: 12px !important;
-    color: #111111;
-    background-color: #f2f2f2;
+
+.contact .row form {
+    flex: 1 1 50rem;
+    padding: 5rem;
 }
-.formEmail {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    color: #111111;
-    pointer-events: initial;
-    font-size: 1rem;
-    box-sizing: border-box;
-    text-align: start;
-    width: 100%;
-    margin-bottom: 10px;
-    padding-left: 10px;
+
+.contact .row form .inputBox select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 8px;
 }
-.label2 {
-    -webkit-text-size-adjust: 100%;
-    pointer-events: initial;
-    box-sizing: border-box;
-    font: inherit;
-    margin: 0;
-    overflow: visible;
-    outline: none;
-    display: block;
-    width: 100%;
-    padding: 10px 12px;
-    background-image: none;
-    background-clip: padding-box;
-    border: none;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    height: auto;
-    border-radius: 12px !important;
-    color: #111111;
-    background-color: #f2f2f2;
+
+
+.contact .row select,
+form .inputBox input,
+.contact .row form textarea {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    width: 49%;
 }
-.mensageContratar {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    color: #111111;
-    pointer-events: initial;
-    font-size: 1rem;
-    box-sizing: border-box;
-    text-align: start;
-    width: 100%;
-    margin-bottom: 10px;
-    padding-left: 10px;
+
+.contact .row form textarea {
+    width: 99%;
+    height: 15rem;
+    resize: none;
+    margin-left: 8px;
 }
-.label3 {
-    -webkit-text-size-adjust: 100%;
-    pointer-events: initial;
-    box-sizing: border-box;
-    font: inherit;
-    margin: 0;
-    overflow: auto;
-    outline: none;
-    display: block;
-    width: 100%;
-    padding: 10px 12px;
-    background-image: none;
-    background-clip: padding-box;
-    border: none;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    height: auto;
-    border-radius: 12px !important;
-    color: #111111;
-    background-color: #f2f2f2;
-}
-.alignLeftButton {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    color: #111111;
-    pointer-events: initial;
-    font-size: 1rem;
-    box-sizing: border-box;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 0 !important;
-    padding-left: 10px;
-}
-.buttonContratar {
-    -webkit-text-size-adjust: 100%;
-    pointer-events: initial;
-    box-sizing: border-box;
-    cursor: pointer;
-    font-family: inherit;
-    line-height: inherit;
-    letter-spacing: inherit;
-    font-weight: inherit;
-    text-decoration: none;
-    border: 0 none transparent;
-    outline-width: 0;
-    margin: 0;
-    font-style: initial;
-    white-space: nowrap;
-    user-select: none;
-    vertical-align: middle;
+
+/* end */
+
+/* footer */
+
+.footer {
+    background: #fff;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    align-self: flex-start;
+}
+
+.footer .share {
+    padding: 1rem 0;
+}
+
+.footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--primary-color);
+    border: .1rem solid var(--primary-color);
+    margin: .3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover {
+    color: #E99C52;
+    background: var(--primary-color);
+    border: .1rem solid var(--main-color);
+}
+
+.footer .credit {
+    font-size: 2rem;
+    color: var(--black-color);
+    padding: 1.5rem;
+    font-weight: lighter;
+}
+
+.footer .credit span {
+    color: var(--main-color);
+    font-weight: lighter;
+}
+.btn {
+    background: var(--primary-color);
+    color: #fff;
     display: inline-block;
-    border-width: 0 !important;
-    border-radius: 12px !important;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    border-radius: 1.5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1.2rem 4rem;
+    font-size: 1.7rem;
     position: relative;
-    stroke: none;
-    border-color: transparent !important;
-    text-transform: uppercase;
-    font-size: 1.25rem;
-    width: 100%;
-    background-image: none;
-    border-style: none;
-    padding: 16px 30px 17px;
-    color: #111111 !important;
-    background-color: #cdcdb6 !important;
+    z-index: 0;
+    overflow: hidden;
 }
-.formControl {
-    -webkit-text-size-adjust: 100%;
-    pointer-events: initial;
-    box-sizing: border-box;
-    color: inherit;
-    font: inherit;
-    margin: 0;
-    overflow: visible;
-    outline: none;
-    display: none !important;
-}
-.sendMensage {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    pointer-events: initial;
-    font-size: 1rem;
-    box-sizing: border-box;
-    z-index: 1;
-    background: #62C584;
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    padding: 20px;
-    border: none;
-}
-.erroMensage {
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.6;
-    pointer-events: initial;
-    font-size: 1rem;
-    box-sizing: border-box;
-    z-index: 1;
-    background: #F95D51;
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    padding: 20px;
-    border: none;
-}
+
 
 /* end */
 
@@ -2317,250 +2117,6 @@ header .fa-bars{
         font-size: 2rem;
 
     }
-    
-    
-
-    .formContratar {
-        -webkit-text-size-adjust: 100%;
-        font-size: 4rem;
-        line-height: 1.6;
-        box-sizing: border-box;
-        display: block;
-        position: relative;
-        text-align: center;
-        color: #111111;
-        background-color: #fff;
-        background-image: none;
-    }
-    .containerContratar {
-        position: relative;
-        margin: 0 auto;
-        width: 911px !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: 1504px;
-        pointer-events: none;
-    }
-    .imageLogo1 {
-        position: relative;
-        object-fit: cover;
-        display: block;
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: #111111;
-        border-radius: 50% !important;
-        background-image: url("https://i.ibb.co/mzMvV2B/Logo-Fatima.png");
-        background-position: 50% 50%;
-        margin: -209px 26px 0 auto;
-        width: 600px;
-        height: 600px;
-        margin-top: -400%;
-        margin-right: 20px;
-        margin-left: 100%;
-        pointer-events: initial;
-    }
-    .palletContratar {
-        text-align: center;
-        box-sizing: border-box;
-        position: relative;
-        border-radius: 50%;
-        color: #111111;
-        background-color: #E99C52;
-        width: 245px;
-        height: 245px;
-        margin: -181px 7px 0 auto;
-        margin-top: -163px;
-        margin-right: 29px;
-        pointer-events: initial;
-    }
-    .alignBoxContratar {
-        box-sizing: border-box;
-        position: relative;
-        display: flex;
-        text-align: left;
-        border-radius: 15px !important;
-        color: #111111;
-        background-color: #ffffff;
-        background-image: none;
-        margin-left: 65%;
-        width: 911px;
-        min-height: 662px;
-        margin-top: -157px;
-        pointer-events: initial;
-        box-shadow: 0 0 50px #ccc;
-    }
-    .boxContratar {
-        flex: 1;
-        max-width: 100%;
-        transition-duration: inherit;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 50px 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        border-radius: 15px !important;
-    }
-    .tittleContratar {
-        color: inherit;
-        font-family: 'Raleway',sans-serif;
-        flex-shrink: 0;
-        word-wrap: break-word;
-        padding: 0;
-        font-size: 6rem;
-        line-height: 1.1;
-        font-weight: 300;
-        position: relative;
-        margin: 0 15px 0 0;
-    }
-    .formContratar1 {
-        font-size: 3rem;
-        height: auto !important;
-        flex-shrink: 0;
-        position: relative;
-        margin: 20px 25px 0 0;
-    }
-    .boxForm {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-end;
-        margin-left: -10px;
-        width: calc(100% +  10px);
-        padding: 10px;
-        font-size: 4rem;
-    }
-    .formName {
-        font-size: 3rem;
-        box-sizing: border-box;
-        text-align: start;
-        width: 100%;
-        margin-bottom: 10px;
-        padding-left: 10px;
-    }
-    .labelContratar {
-        color: #111111;
-        pointer-events: initial;
-        font-size: 3rem;
-        text-align: start;
-        box-sizing: border-box;
-        font-weight: normal;
-    }
-    .label1 {
-        pointer-events: initial;
-        box-sizing: border-box;
-        font: inherit;
-        margin: 0;
-        overflow: visible;
-        outline: none;
-        display: block;
-        width: 100%;
-        padding: 10px 12px;
-        background-image: none;
-        background-clip: padding-box;
-        border: none;
-        transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-        height: auto;
-        border-radius: 12px !important;
-        color: #111111;
-        background-color: #f2f2f2;
-    }
-    .formEmail {
-        font-size: 3rem;
-        box-sizing: border-box;
-        text-align: start;
-        width: 100%;
-        margin-bottom: 10px;
-        padding-left: 10px;
-    }
-    .mensageContratar {
-        font-size: 3rem;
-        box-sizing: border-box;
-        text-align: start;
-        width: 100%;
-        margin-bottom: 10px;
-        padding-left: 10px;
-    }
-    .buttonContratar {
-        pointer-events: initial;
-        box-sizing: border-box;
-        cursor: pointer;
-        font-family: inherit;
-        line-height: inherit;
-        letter-spacing: inherit;
-        font-weight: inherit;
-        text-decoration: none;
-        border: 0 none transparent;
-        outline-width: 0;
-        margin: 0;
-        font-style: initial;
-        white-space: nowrap;
-        user-select: none;
-        vertical-align: middle;
-        text-align: center;
-        align-self: flex-start;
-        display: inline-block;
-        border-width: 0 !important;
-        border-radius: 12px !important;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        position: relative;
-        stroke: none;
-        border-color: transparent !important;
-        text-transform: uppercase;
-        font-size: 2rem;
-        width: 100%;
-        background-image: none;
-        border-style: none;
-        padding: 16px 30px 17px;
-        color: #111111 !important;
-        background-color: #E99C52 !important;
-    }
-    .formControl {
-        pointer-events: initial;
-        box-sizing: border-box;
-        color: inherit;
-        font: inherit;
-        margin: 0;
-        overflow: visible;
-        outline: none;
-        display: none !important;
-    }
-    .sendMensage {
-        pointer-events: initial;
-        font-size: 1rem;
-        box-sizing: border-box;
-        z-index: 1;
-        background: #62C584;
-        display: none;
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        text-align: center;
-        color: #fff;
-        padding: 20px;
-        border: none;
-    }
-    .erroMensage {
-        pointer-events: initial;
-        font-size: 1rem;
-        box-sizing: border-box;
-        z-index: 1;
-        background: #F95D51;
-        display: none;
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        width: 100%;
-        text-align: center;
-        color: #fff;
-        padding: 20px;
-        border: none;
-    }
-    
-    
-
 }
 
 

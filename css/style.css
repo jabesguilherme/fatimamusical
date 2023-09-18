@@ -272,10 +272,17 @@ header .bx-menu {
 .about-text {
     margin-left: 30%;
     padding-bottom: 30px;
+    margin-right: -60%;
+    text-align: justify;
+}
+.about-text .heading{
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .about-text p {
     font-size: 2.2rem;
+    margin-bottom: 10px;
 }
 
 
@@ -589,43 +596,43 @@ header .bx-menu {
 }
 
 .thumbnails:first-child {
-    background: url(https://i.ibb.co/k5x5NQz/Violino1.png);
+    background: url(https://i.ibb.co/PYbW7fv/IMG-6735-jpg.jpg);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(2) {
-    background: url(https://i.ibb.co/yhsRQfn/Saxofone1.png);
+    background: url(https://i.ibb.co/JRQp8Rn/IMG-1537-jpg.jpg);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(3) {
-    background: url(https://i.ibb.co/b5rwf5D/Bateria1.png);
+    background: url(https://i.ibb.co/5TQrbG1/debutante2.jpg);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(4) {
-    background: url(https://i.ibb.co/T1nQv3V/vocalista.png);
+    background: url(https://i.ibb.co/0DdYp7F/debutante1.jpg);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(5) {
-    background: url(https://i.ibb.co/mvptFyz/cello1.png);
+    background: url(https://i.ibb.co/sKVbvKD/IMG-6161-jpg.jpg);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(6) {
-    background: url(https://i.ibb.co/g99h7ss/Contra-Baixo1.png);
+    background: url(https://i.ibb.co/ZN8WdpP/debutante3.jpg);
     background-size: cover;
 
 }
 
 .thumbnails:nth-child(7) {
-    background: url(https://i.ibb.co/25kFYQz/Flauta.png);
+    background: url(https://i.ibb.co/hXXyZwp/IMG-9207-jpg.jpg);
     background-size: cover;
 
 }
