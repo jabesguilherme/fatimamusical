@@ -161,11 +161,6 @@ header .fa-bars{
 .casamento1{
     width: 328px;
     height: 328px;
-    --animation-custom_in-translate_x: -300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     background-image: url(/img/Galeria/casamento1.jpg);
     background-position: 50% 50%;
     margin: 200px auto 0 0;
@@ -184,11 +179,6 @@ header .fa-bars{
 .casamento2{
     width: 372px;
     height: 372px;
-    --animation-custom_in-translate_x: 300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin: -293px auto 0 726px;
     border-radius: 50% !important;
     overflow: hidden;
@@ -204,12 +194,8 @@ header .fa-bars{
 .casamento3{
     width: 502px;
     height: 502px;
-    --animation-custom_in-translate_x: 300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin: -177px auto 0 264px;
+    background-position: 50% 50%;
     stroke: none;
     border-radius: 50% !important;
     overflow: hidden;
@@ -222,11 +208,6 @@ header .fa-bars{
 .casamento4{
     width: 250px;
     height: 250px;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin: -272px auto 0 890px;
     border-radius: 50% !important;
     overflow: hidden;
@@ -677,7 +658,7 @@ header .fa-bars{
 .ImageEscolhas2 {
     height: 290px;
     width: 290px;
-    background-image: url(https://i.ibb.co/yhsRQfn/Saxofone1.png);
+    background-image: url(https://i.ibb.co/JRQp8Rn/IMG-1537-jpg.jpg);
     background-position: 50% 50%;
     margin: 0 auto;
     border-radius: 50% !important;
