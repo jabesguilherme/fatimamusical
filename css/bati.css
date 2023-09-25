@@ -26,6 +26,9 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
+    background-image: url(https://i.ibb.co/s2X4SKH/background.png);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 html::-webkit-scrollbar {
@@ -171,15 +174,15 @@ header #menu{
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #ffffff;
-    background-image: url("https://i.ibb.co/mzMvV2B/Logo-Fatima.png");
+    background-image: url("https://i.ibb.co/7RN1yC9/batizado2.jpg");
     background-position: 50% 50%;
-    text-align: right;
+    text-align: center;
     overflow: visible;
 }
 .containerBox {
+    
     position: relative;
-    margin: 100px 0 0 600px;
+    margin: 100px 0 0 200px;
     width: 1140px !important;
     display: flex;
     flex-direction: column;
@@ -190,14 +193,8 @@ header #menu{
 .containerStyle {
     position: relative;
     display: flex;
-    animation-fill-mode: both;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #E99C52;
-    border-radius: 10%;
-    stroke: none;
-    text-align: left;
-    width: 475px;
+    text-align: center;
+    width: 975px;
     min-height: 688px;
     margin: 78px 0 58px auto;
     pointer-events: initial;
@@ -205,10 +202,9 @@ header #menu{
     animation-duration: 1500ms;
 }
 .containerLayout {
-    background-color: #ffffff;
-    color: #ffffff;
+    background-color: 0 0 50px #ccc;
     stroke: none;
-    text-align: left;
+    text-align: center;
     position: relative;
     flex: 1;
     max-width: 100%;
@@ -217,13 +213,12 @@ header #menu{
     flex-direction: column;
     justify-content: center;
     padding: 30px;
-    border-radius: 10%;
+    border-radius: 5%;
     box-shadow: 0 0 50px #ccc;
 }
 .tittleInicio {
-    margin: 0.67em 0;
     text-transform: uppercase;
-    color: #E99C52;
+    color: #ffffff;
     font-family: 'Raleway',sans-serif;
     display: table;
     align-self: flex-start;
@@ -235,13 +230,15 @@ header #menu{
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 700;
+    text-align: center;
+    margin-left: 30%;
 }
 .textInicio {
-    color: #127F90;
+    color: #ffffff;
     stroke: none;
-    text-align: left;
+    text-align: center;
     padding: 0;
     display: table;
     align-self: flex-start;
@@ -252,7 +249,7 @@ header #menu{
     margin-left: 0;
     margin-bottom: 0;
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /**  end  **/
@@ -269,7 +266,6 @@ header #menu{
     display: block;
     position: relative;
     color: #111111;
-    background-color: #e5e5e5;
     background-image: none;
 }
 .containerBoxExemplos {
@@ -497,7 +493,7 @@ header #menu{
     padding: 0;
     flex-shrink: 0;
     word-wrap: break-word;
-    color: #808080 !important;
+    color: #127F90 !important;
     position: relative;
     text-align: left;
     font-size: 1.125rem;
@@ -521,7 +517,6 @@ header #menu{
     position: relative;
     text-align: center;
     color: #111111;
-    background-color: #e5e5e5;
     background-image: none;
     min-height: 1307px;
     display: flex;
@@ -615,7 +610,6 @@ header #menu{
     max-width: 100%;
     transition-duration: inherit;
     padding: 30px;
-    box-shadow: 0 0 50px #E99C52;
 }
 .imageGroup1 {
     border-style: none;
@@ -633,6 +627,7 @@ header #menu{
     height: 314px;
     margin-top: 0;
     margin-bottom: 0;
+    border-radius: 50%;
 }
 .tittleBox {
     color: inherit;
@@ -731,7 +726,6 @@ header #menu{
     max-width: 100%;
     transition-duration: inherit;
     padding: 30px;
-    box-shadow: 0 0 50px #E99C52;
 }
 .imageGroup2 {
     text-align: center;
@@ -750,6 +744,7 @@ header #menu{
     height: 314px;
     margin-top: 0;
     margin-bottom: 0;
+    border-radius: 50%;
 }
 .tittleBox1 {
     text-align: center;
@@ -863,7 +858,6 @@ header #menu{
     max-width: 100%;
     transition-duration: inherit;
     padding: 30px;
-    box-shadow: 0 0 50px #E99C52;
 }
 .imageGropu3 {
     text-align: center;
@@ -882,6 +876,7 @@ header #menu{
     height: 314px;
     margin-top: 0;
     margin-bottom: 0;
+    border-radius: 50%;
 }
 
 
