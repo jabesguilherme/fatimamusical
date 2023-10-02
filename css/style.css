@@ -81,8 +81,8 @@ html::-webkit-scrollbar-thumb {
 body {
     margin: 0;
     padding: 0;
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     background-image: url(https://i.ibb.co/s2X4SKH/background.png);
@@ -240,11 +240,9 @@ header .bx-menu {
 
 .about {
     display: flex;
-    box-shadow: var(--box-shadow);
     align-items: center;
     justify-content: center;
-    margin-left: 90%;
-
+    padding-bottom: 5%;
 }
 
 .containerAbout {
@@ -270,13 +268,13 @@ header .bx-menu {
 }
 
 .about-text {
-    margin-left: 30%;
+    margin-left: 13.8%;
     padding-bottom: 30px;
-    margin-right: -60%;
+    margin-right: 13.8%;
     text-align: justify;
 }
 .about-text .heading{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -318,6 +316,7 @@ header .bx-menu {
     font-weight: 400;
     text-align: center;
     font-size: 15px;
+    margin: 5%;
 }
 
 /* end */
@@ -327,11 +326,10 @@ header .bx-menu {
 /* Services */
 
 .services h1 {
-    padding-left: 117rem;
-    margin-top: 20%;
-    margin-right: -100%;
+    text-align: right;
+    margin-top: 7%;
+    margin-right: 18.8%;
     text-transform: uppercase;
-    margin-left: 5%;
 }
 
 .services p {
@@ -344,7 +342,6 @@ header .bx-menu {
 .carrosselC {
     box-sizing: border-box;
     display: flex;
-    margin-right: -94%;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
@@ -498,7 +495,6 @@ header .bx-menu {
     margin-top: 30px;
     justify-content: center;
     align-items: center;
-    margin-right: -95%;
 }
 
 @media screen and (max-widht: 900px) {
@@ -522,9 +518,10 @@ header .bx-menu {
 
 
 .instrument-text {
-    margin-left: 100%;
-    margin-right: -85%;
     margin-top: 20%;
+    margin-left: 60%;
+    margin-right: 8%;
+    text-align: justify;
 }
 
 .instrument-text p {
@@ -534,7 +531,6 @@ header .bx-menu {
 
 .instrument-text .heading {
     display: flex;
-    margin-top: 20px;
     text-transform: uppercase;
 }
 
@@ -543,6 +539,7 @@ header .bx-menu {
     width: 800px;
     margin-left: 500px;
     padding: 100px 20px;
+    margin-top: -5%;
     overflow: hidden;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -638,8 +635,8 @@ header .bx-menu {
 }
 
 .btnInstrument {
-    margin-top: 30px;
-    margin-left: 100%;
+    margin-top: 80px;
+    margin-left: 60%;
 }
 
 /* end */
@@ -648,11 +645,11 @@ header .bx-menu {
 /* Gallery */
 
 .gallery {
-    margin-top: 35%;
-    margin-left: 30%;
-    margin-right: -100%;
+    margin-top: 15%;
+    margin-left: 8%;
     padding-right: 30rem;
     text-align: center;
+    width: 100%;
 }
 
 .gallery h1 {
@@ -728,18 +725,17 @@ header .bx-menu {
 
 .coments-text {
     margin-left: 200px;
-    margin-top: 20%;
+    margin-top: 15%;
     position: relative;
 }
 
 .coments-text p {
     font-size: 2.2rem;
-    padding-right: 20%;
+    padding-right: 60%;
 }
 
 .btnComents {
     display: flex;
-    margin-top: -15%;
     margin-left: 200px;
 }
 
@@ -751,7 +747,7 @@ header .bx-menu {
 .slide-container {
     display: flex;
     margin-left: 950px;
-    margin-top: -25%;
+    margin-top: -14%;
     width: 338px;
     height: 500px;
     overflow: hidden;
@@ -784,12 +780,13 @@ header .bx-menu {
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+
 }
 
 .navigation-auto {
     position: absolute;
     width: 338px;
-    margin-top: 399.9px;
+    margin-top: 28%;
     display: flex;
     justify-content: center;
 }
@@ -818,7 +815,7 @@ header .bx-menu {
 .manual-navigation {
     position: absolute;
     width: 338px;
-    margin-top: 400px;
+    margin-top: 28%;
     margin-right: 115px;
     display: flex;
     justify-content: center;
@@ -862,7 +859,7 @@ header .bx-menu {
 /* social */
 
 .social {
-    margin-top: 40%;
+    margin-top: 16%;
     margin-left: 200px;
 }
 
@@ -900,15 +897,10 @@ header .bx-menu {
     font-size: 3.5rem;
     color: #fff inherit;
     text-decoration: none;
-    padding-top: 1rem;
-    transition: 1s;
-
+    text-transform: uppercase;
 
 }
 
-.social ul li:hover {
-    transform: scale(1.1);
-}
 
 .social ul li i {
     font-size: 3.5rem;
@@ -922,12 +914,11 @@ header .bx-menu {
 
 .social .row .imageSocial img {
     display: flex;
-    margin-left: 110%;
-    margin-top: -90%;
     border-radius: 10%;
-    width: 70%;
+    width: 30%;
     height: 20%;
-    transition: 1s;
+    margin-left: 50%;
+    margin-top: -36%;
 }
 
 
@@ -937,9 +928,9 @@ header .bx-menu {
 /* form */
 
 .contact {
-    margin-right: -50%;
-    margin-top: 30%;
-    margin-left: 35%;
+    margin-left: 13.8%;
+    margin-top: 15%;
+    margin-right: 13.8%;
 }
 
 .contact h1 {
@@ -969,7 +960,7 @@ header .bx-menu {
 }
 
 .contact .row .image img {
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     border-radius: 2%;
@@ -1001,9 +992,13 @@ form .inputBox input,
 }
 
 .contact .row form textarea {
-    width: 100%;
+    width: 98%;
     height: 15rem;
     resize: none;
+}
+
+form .btn{
+    margin-left: 64%;
 }
 
 /* end */
@@ -1015,28 +1010,6 @@ form .inputBox input,
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-right: -100vh;
-}
-
-.footer .share {
-    padding: 1rem 0;
-}
-
-.footer .share a {
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    color: var(--primary-color);
-    border: .1rem solid var(--primary-color);
-    margin: .3rem;
-    border-radius: 50%;
-}
-
-.footer .share a:hover {
-    color: #E99C52;
-    background: var(--primary-color);
-    border: .1rem solid var(--main-color);
 }
 
 .footer .credit {
@@ -1047,6 +1020,11 @@ form .inputBox input,
 }
 
 .footer .credit span {
+    color: var(--main-color);
+    font-weight: lighter;
+}
+
+.footer .credit a {
     color: var(--main-color);
     font-weight: lighter;
 }
