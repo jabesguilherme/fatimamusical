@@ -178,10 +178,8 @@ header #menu{
     background-position: 100%;
     text-align: center;
     overflow: visible;
-    margin-top: -12%;
 }
 .containerBox {
-    
     position: relative;
     width: 1140px !important;
     display: flex;
@@ -209,40 +207,19 @@ header #menu{
     padding: 30px;
 }
 .tittleInicio {
-    text-transform: uppercase;
     color: #ffffff;
-    font-family: 'Raleway',sans-serif;
-    display: table;
-    align-self: flex-start;
-    width: fit-content;
-    flex-shrink: 0;
-    word-wrap: break-word;
-    padding: 0;
-    line-height: 1.1;
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
     font-size: 6rem;
-    font-weight: 700;
-    text-align: center;
-    margin-left: 40%;
-    margin-top: 10%;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: -30%;
+    text-transform: uppercase;
 }
 .textInicio {
     color: #ffffff;
-    stroke: none;
-    text-align: center;
-    padding: 0;
-    display: table;
-    align-self: flex-start;
-    width: fit-content;
-    flex-shrink: 0;
-    word-wrap: break-word;
-    position: relative;
-    margin-left: 10%;
-    margin-bottom: 0;
-    margin-top: 20px;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: -30%;
 }
 
 /**  end  **/
@@ -896,7 +873,7 @@ header #menu{
     background-repeat: no-repeat;
     color: #111111;
     overflow: hidden;
-    width: calc(((100% - 1140px) / 2) + 309px);
+    width: calc(((100% - 1140px) / 3) + 239px);
     height: 322px;
     margin-top: 0;
     margin-right: auto;
@@ -915,7 +892,7 @@ header #menu{
     color: #111111;
     overflow: hidden;
     width: calc(((100% - 1140px) / 3) + 239px);
-    height: 351px;
+    height: 322px;
     margin-top: 251px;
     margin-right: 0;
     margin-bottom: initial;
@@ -1229,7 +1206,6 @@ form .inputBox input,
 }
 
 form .btn{
-    margin-left: 50%;
     background: var(--primary-color);
     color: #fff;
     display: inline-block;

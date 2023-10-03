@@ -26,7 +26,7 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
-    background-image: url(https://i.ibb.co/s2X4SKH/background.png);
+    background-image: url(https://i.ibb.co/kcxPDFK/background-Corporativo.png);
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -174,11 +174,10 @@ header #menu{
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://i.ibb.co/7RN1yC9/batizado2.jpg");
+    background-image: url("https://i.ibb.co/BTxQjD9/musicos.jpg");
     background-position: 100%;
     text-align: center;
     overflow: visible;
-    margin-top: -12%;
 }
 .containerBox {
     
@@ -206,11 +205,12 @@ header #menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--box-shadow);
     padding: 30px;
 }
 .tittleInicio {
     text-transform: uppercase;
-    color: #ffffff;
+    color: #E99C52;
     font-family: 'Raleway',sans-serif;
     display: table;
     align-self: flex-start;
@@ -225,20 +225,17 @@ header #menu{
     font-size: 6rem;
     font-weight: 700;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 50%;
 }
 .textInicio {
     color: #ffffff;
     stroke: none;
     text-align: center;
     padding: 0;
-    display: table;
-    align-self: flex-start;
-    width: fit-content;
     flex-shrink: 0;
     word-wrap: break-word;
     position: relative;
-    margin-left: 10%;
+    margin-left: 50%;
     margin-bottom: 0;
     margin-top: 20px;
     font-size: 3rem;
