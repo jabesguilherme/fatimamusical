@@ -404,7 +404,6 @@ header #menu{
 .image3 {
     border-style: none;
     position: relative;
-    object-fit: cover;
     display: block;
     background-size: cover;
     background-position: 50% 50%;
@@ -412,9 +411,9 @@ header #menu{
     animation-fill-mode: both;
     color: #111111;
     overflow: hidden;
-    width: 556px;
-    height: 417px;
-    margin: 466px 0 0 auto;
+    width: 456px;
+    height: 617px;
+    margin: 466px 30px 0 auto;
     pointer-events: initial;
     will-change: transform, opacity;
     animation-duration: 1000ms;
@@ -426,7 +425,7 @@ header #menu{
     object-fit: cover;
     display: block;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 100% 50%;
     background-repeat: no-repeat;
     animation-fill-mode: both;
     color: #111111;
@@ -434,7 +433,7 @@ header #menu{
     width: 444px;
     height: 444px;
     box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.15);
-    margin: -587px auto 0 235px;
+    margin: -787px auto 0 235px;
     pointer-events: initial;
     will-change: transform, opacity;
     animation-duration: 750ms;
@@ -875,6 +874,403 @@ header #menu{
 
 /* end */
 
+/* Gallery */
+.clearfix {
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+
+.right1{
+    border-style: none;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #111111;
+    overflow: hidden;
+    width: calc(((100% - 1140px) / 2) + 309px);
+    height: 322px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: initial;
+    margin-left: 0;
+
+}
+.right2{
+    border-style: none;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #111111;
+    overflow: hidden;
+    width: calc(((100% - 1140px) / 3) + 239px);
+    height: 351px;
+    margin-top: 251px;
+    margin-right: 0;
+    margin-bottom: initial;
+    margin-left: auto;
+}
+
+
+.u-clearfix {
+    position: relative;
+    width: 1140px;
+    min-height: 924px;
+    margin: -924px auto 0;
+    pointer-events: none;
+}
+.galleryContainer {
+    position: relative;
+    width: 937px;
+    margin: 94px auto 0 102px;
+    pointer-events: initial;
+}
+.layoutGallery {
+    margin: -10px;
+}
+.layoutRowGallery {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+}
+.galleySize {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/TPBJYC8/aniversario1.jpg");
+    min-height: 348px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerLayoutGallery {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+}
+.containerStyleGallery1 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/mytxsz8/aniversario2.jpg");
+    min-height: 347px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.galleySize2 {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery2 {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery2 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 20 0 33.33333333%;
+    background-image: url("https://i.ibb.co/Sd8jNmT/Festa3.jpg");
+    min-height: 397px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerStyleGallery3 {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    flex: 20 0 33.33333333%;
+    min-height: 325px;
+    border: 10px solid transparent;
+}
+.layoutMiddle {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+.tittleh2 {
+    text-align: center;
+    word-wrap: break-word;
+    color: #E99C52 !important;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.1;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 20px 20px 0;
+}
+.textSubGallery {
+    background-color: transparent;
+    border-top-width: 0 !important;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    display: table;
+    border-style: solid;
+    border-bottom-width: 0;
+    white-space: nowrap;
+    align-self: flex-start;
+    text-decoration: none;
+    position: relative;
+    color: #127F90 !important;
+    font-size: 2rem;
+    margin: 10px auto 20px;
+}
+.containerStyleGallery4 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 20 0 33.33333333%;
+    background-image: url("https://i.ibb.co/BNLYNFt/aniversario3.jpg");
+    min-height: 335px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.galleySize3 {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery3 {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery5 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/PrTvhPS/casamento3.jpg");
+    min-height: 348px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerStyleGallery6 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/1Ts94PJ/Festa2.jpg");
+    min-height: 347px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+
+/* end */
+
+
+/* form */
+
+.contact {
+    margin-left: 13.8%;
+    margin-top: 15%;
+    margin-right: 13.8%;
+}
+
+.contact h1 {
+    font-size: 4rem;
+    margin-right: 5%;
+    color: var(--main-color);
+    text-align: end;
+    text-transform: uppercase;
+}
+
+.contact p {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    margin-right: 5%;
+    text-align: end;
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact .row .image {
+    flex: 1 1 25rem;
+}
+
+.contact .row .image img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.contact .row form {
+    flex: 1 1 50rem;
+    padding: 5rem;
+}
+
+.contact .row form .inputBox select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.contact .row select,
+form .inputBox input,
+.contact .row form textarea {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    width: 49%;
+}
+
+.contact .row form textarea {
+    width: 98%;
+    height: 15rem;
+    resize: none;
+}
+
+form .btn{
+    margin-left: 50%;
+    background: var(--primary-color);
+    color: #fff;
+    display: inline-block;
+    border-radius: 1.5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1.2rem 4rem;
+    font-size: 1.7rem;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+/* end */
+
+/* footer */
+
+.footer {
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer .credit {
+    font-size: 2rem;
+    color: var(--black-color);
+    padding: 1.5rem;
+    font-weight: lighter;
+}
+
+.footer .credit span {
+    color: var(--main-color);
+    font-weight: lighter;
+}
+
+.footer .credit a {
+    color: var(--main-color);
+    font-weight: lighter;
+}
+
+/* end */
 
 
 
