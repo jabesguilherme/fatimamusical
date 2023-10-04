@@ -1031,6 +1031,19 @@ form .btn{
 
 /* end */
 
+/* buttom Whats  */
+
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+
+
+/* end */
+
+
 
 
     /** Media **/

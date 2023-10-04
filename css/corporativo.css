@@ -47,7 +47,9 @@ html::-webkit-scrollbar-thumb {
 
 header {
     position: fixed;
-    top:0; left:0; right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: #ffffff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
     padding: 20px 7%;
@@ -56,6 +58,7 @@ header {
     justify-content: space-between;
     z-index: 1000;
 }
+
 header .logo {
     display: flex;
     width: 10rem;
@@ -63,28 +66,29 @@ header .logo {
     margin-bottom: -60px;
     margin-top: -60px;
 }
-header .navbar ul{
+
+header .navbar ul {
     list-style: none;
 }
 
-header .navbar ul li{
+header .navbar ul li {
     position: relative;
     float: left;
 }
 
-header .navbar ul li a{
+header .navbar ul li a {
     font-size: 20px;
     padding: 20px;
     color: #127F90;
     display: block;
 }
 
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
     background: #127F90;
     color: #E99C52;
 }
 
-header .navbar ul li ul{
+header .navbar ul li ul {
     position: absolute;
     left: 0;
     width: 200px;
@@ -92,30 +96,33 @@ header .navbar ul li ul{
     display: none;
 }
 
-header .navbar ul li ul li{
+header .navbar ul li ul li {
     width: 100%;
     border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
-header .navbar ul li ul li ul{
+header .navbar ul li ul li ul {
     left: 200px;
     top: 0;
 }
-header .navbar ul li:focus-within > ul,
-header .navbar ul li:hover > ul{
+
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover>ul {
     display: initial;
 }
-header #menu{
+
+header #menu {
     display: none;
- }
- header .bx-menu{
-     display: none;
- }
+}
+
+header .bx-menu {
+    display: none;
+}
 
 
 
-@media(max-width:991px){
-    header{
+@media(max-width:991px) {
+    header {
         padding: 40px;
     }
 
@@ -128,36 +135,43 @@ header #menu{
     }
 
 
-    header #menu{
-       display: none;
+    header #menu {
+        display: none;
     }
-    header .bx-menu{
+
+    header .bx-menu {
         display: initial;
         font-size: 10rem;
     }
 
-    header .navbar{
+    header .navbar {
         position: absolute;
-        top: 100%; left: 0; right: 0;
+        top: 100%;
+        left: 0;
+        right: 0;
         background: #fff;
-        border-top: 1px solid rgba(0, 0, 0, .1);    
+        border-top: 1px solid rgba(0, 0, 0, .1);
         display: none;
     }
-    header .navbar ul li{
-        width: 100%;
-    }
-    header .navbar ul li ul{
-        position: relative;
-        width: 100%;
-    }
-    header .navbar ul li ul li{
-        background: #eee;
-    }
-    header .navbar ul li ul li ul{
+
+    header .navbar ul li {
         width: 100%;
     }
 
-    #menu:checked ~ .navbar{
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: #eee;
+    }
+
+    header .navbar ul li ul li ul {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
         display: initial;
     }
 }
@@ -179,8 +193,9 @@ header #menu{
     text-align: center;
     overflow: visible;
 }
+
 .containerBox {
-    
+
     position: relative;
     width: 1140px !important;
     display: flex;
@@ -189,6 +204,7 @@ header #menu{
     min-height: 804px;
     pointer-events: none;
 }
+
 .containerStyle {
     position: relative;
     display: flex;
@@ -196,6 +212,7 @@ header #menu{
     width: 1140px;
     min-height: 688px;
 }
+
 .containerLayout {
     text-align: center;
     position: relative;
@@ -208,10 +225,11 @@ header #menu{
     background-color: var(--box-shadow);
     padding: 30px;
 }
+
 .tittleInicio {
     text-transform: uppercase;
     color: #E99C52;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     display: table;
     align-self: flex-start;
     width: fit-content;
@@ -227,6 +245,7 @@ header #menu{
     text-align: center;
     margin-left: 50%;
 }
+
 .textInicio {
     color: #ffffff;
     stroke: none;
@@ -250,13 +269,14 @@ header #menu{
     -webkit-text-size-adjust: 100%;
     font-size: 1rem;
     line-height: 1.6;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     display: block;
     position: relative;
     color: #111111;
     background-image: none;
 }
+
 .containerBoxExemplos {
     position: relative;
     margin: 0 auto;
@@ -264,6 +284,7 @@ header #menu{
     min-height: 1498px;
     pointer-events: none;
 }
+
 .image1 {
     box-sizing: border-box;
     border-style: none;
@@ -283,6 +304,7 @@ header #menu{
     will-change: transform, opacity;
     animation-duration: 750ms;
 }
+
 .image2 {
     border-style: none;
     position: relative;
@@ -302,6 +324,7 @@ header #menu{
     animation-duration: 750ms;
 
 }
+
 .alighLeft {
     box-sizing: border-box;
     position: relative;
@@ -313,13 +336,14 @@ header #menu{
     width: 629px;
     min-height: 392px;
     background-image: none;
-    box-shadow: 5px 5px 24px 0 rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 24px 0 rgba(0, 0, 0, 0.25);
     margin: -623px 249px 0 auto;
     pointer-events: initial;
     will-change: transform, opacity;
     animation-duration: 1250ms;
 
 }
+
 .containerBoxText {
     text-align: left;
     color: #111111;
@@ -334,12 +358,13 @@ header #menu{
     justify-content: center;
     padding: 30px 45px;
 }
+
 .tittleExemplos {
     text-align: left;
     pointer-events: initial;
     box-sizing: border-box;
     color: inherit;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     flex-shrink: 0;
     word-wrap: break-word;
     padding: 0;
@@ -350,10 +375,11 @@ header #menu{
     text-transform: uppercase;
     margin: 0;
 }
+
 .textExemplo {
     font-size: 2rem;
     line-height: 1.6;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     color: #111111;
     pointer-events: initial;
@@ -364,6 +390,7 @@ header #menu{
     position: relative;
     margin: 20px 0 0;
 }
+
 .buttonExemplos {
     pointer-events: initial;
     box-sizing: border-box;
@@ -397,6 +424,7 @@ header #menu{
     color: #ffffff !important;
     background-color: #E99C52 !important;
 }
+
 .image3 {
     border-style: none;
     position: relative;
@@ -415,6 +443,7 @@ header #menu{
     will-change: transform, opacity;
     animation-duration: 1000ms;
 }
+
 .image4 {
     box-sizing: border-box;
     border-style: none;
@@ -429,12 +458,13 @@ header #menu{
     overflow: hidden;
     width: 444px;
     height: 444px;
-    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.15);
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.15);
     margin: -587px auto 0 235px;
     pointer-events: initial;
     will-change: transform, opacity;
     animation-duration: 750ms;
 }
+
 .alighLeft1 {
     position: relative;
     display: flex;
@@ -458,6 +488,7 @@ header #menu{
     animation-duration: 750ms;
 
 }
+
 .containerBoxText1 {
     color: #111111;
     text-align: left;
@@ -473,9 +504,10 @@ header #menu{
     justify-content: center;
     padding: 20px 20px 20px 40px;
 }
+
 .textExemplo1 {
     line-height: 1.6;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     stroke: none;
     pointer-events: initial;
     box-sizing: border-box;
@@ -501,7 +533,7 @@ header #menu{
     margin-top: -300px;
     font-size: 1rem;
     line-height: 1.6;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     position: relative;
     text-align: center;
@@ -512,9 +544,10 @@ header #menu{
     flex-direction: column;
     justify-content: center;
 }
+
 .tittleGroup {
     color: inherit;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     word-wrap: break-word;
     position: relative;
     padding: 0;
@@ -527,6 +560,7 @@ header #menu{
     width: fit-content;
     margin: 60px auto 0;
 }
+
 .textGropu {
     padding: 0;
     word-wrap: break-word;
@@ -535,6 +569,7 @@ header #menu{
     width: 778px;
     margin: 16px auto 0;
 }
+
 .boxWidth {
     width: 100% !important;
     margin-left: 0 !important;
@@ -546,14 +581,17 @@ header #menu{
     margin-top: 273px;
     margin-bottom: 0;
 }
+
 .boxWrap {
     position: relative;
     width: 1140px;
     margin: -546px auto 0;
 }
+
 .boxLayout {
     margin: -13px;
 }
+
 .boxLayoutRow {
     display: flex;
     flex: 1 1 auto;
@@ -562,6 +600,7 @@ header #menu{
     min-height: fit-content;
     max-width: 100%;
 }
+
 .size {
     display: flex;
     max-height: 100%;
@@ -571,14 +610,16 @@ header #menu{
     min-width: 33.33333333%;
 
 }
+
 .boxLayoutCol {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
     min-height: fit-content;
 
-    
+
 }
+
 .boxContainer {
     max-width: 100%;
     position: relative;
@@ -593,6 +634,7 @@ header #menu{
     min-height: 660px;
     border: 13px solid transparent;
 }
+
 .boxContainerLayout {
     position: relative;
     flex: 1;
@@ -600,6 +642,7 @@ header #menu{
     transition-duration: inherit;
     padding: 30px;
 }
+
 .imageGroup1 {
     border-style: none;
     object-fit: cover;
@@ -618,9 +661,10 @@ header #menu{
     margin-bottom: 0;
     border-radius: 50%;
 }
+
 .tittleBox {
     color: inherit;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.2;
     display: table;
     align-self: flex-start;
@@ -632,6 +676,7 @@ header #menu{
     font-size: 4rem;
     margin: 20px auto 0;
 }
+
 .textBox1 {
     padding: 0;
     font-size: 2rem;
@@ -640,6 +685,7 @@ header #menu{
     line-height: 1.8;
     margin: 20px 0 0;
 }
+
 .containerStyleBox {
     max-width: 100%;
     position: relative;
@@ -651,6 +697,7 @@ header #menu{
     min-height: 269px;
     border: 13px solid transparent;
 }
+
 .boxLayout2 {
     position: relative;
     flex: 1;
@@ -658,6 +705,7 @@ header #menu{
     transition-duration: inherit;
     padding: 30px;
 }
+
 .size2 {
     display: flex;
     max-height: 100%;
@@ -666,6 +714,7 @@ header #menu{
     max-width: 33.33333333%;
     min-width: 33.33333333%;
 }
+
 .boxLayoutCol2 {
     text-align: center;
     display: flex;
@@ -673,6 +722,7 @@ header #menu{
     flex-direction: column;
     min-height: fit-content;
 }
+
 .boxContainer2 {
     max-width: 100%;
     position: relative;
@@ -684,6 +734,7 @@ header #menu{
     min-height: 154px;
     border: 13px solid transparent;
 }
+
 .boxContainerline {
     text-align: left;
     position: relative;
@@ -692,6 +743,7 @@ header #menu{
     transition-duration: inherit;
     padding: 30px;
 }
+
 .boxContainerLay {
     max-width: 100%;
     position: relative;
@@ -706,6 +758,7 @@ header #menu{
     min-height: 628px;
     border: 13px solid transparent;
 }
+
 .boxContainerLayout2 {
     text-align: center;
     color: #111111;
@@ -716,6 +769,7 @@ header #menu{
     transition-duration: inherit;
     padding: 30px;
 }
+
 .imageGroup2 {
     text-align: center;
     border-style: none;
@@ -735,10 +789,11 @@ header #menu{
     margin-bottom: 0;
     border-radius: 50%;
 }
+
 .tittleBox1 {
     text-align: center;
     color: inherit;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 1.2;
     display: table;
     align-self: flex-start;
@@ -750,6 +805,7 @@ header #menu{
     font-size: 4rem;
     margin: 20px auto 0;
 }
+
 .textBox2 {
     font-size: 2rem;
     text-align: center;
@@ -761,6 +817,7 @@ header #menu{
     line-height: 1.8;
     margin: 20px 0 0;
 }
+
 .containerBoxLayout3 {
     max-width: 100%;
     position: relative;
@@ -772,6 +829,7 @@ header #menu{
     min-height: 147px;
     border: 13px solid transparent;
 }
+
 .containerLayout4 {
     color: #111111;
     text-align: left;
@@ -781,6 +839,7 @@ header #menu{
     transition-duration: inherit;
     padding: 30px;
 }
+
 .size3 {
     text-align: center;
     color: #111111;
@@ -792,6 +851,7 @@ header #menu{
     max-width: 33.33333333%;
     min-width: 33.33333333%;
 }
+
 .boxLayoutCol3 {
     text-align: center;
     color: #111111;
@@ -801,6 +861,7 @@ header #menu{
     flex-direction: column;
     min-height: fit-content;
 }
+
 .containerStyle3 {
     max-width: 100%;
     position: relative;
@@ -812,6 +873,7 @@ header #menu{
     min-height: 280px;
     border: 13px solid transparent;
 }
+
 .containerLayout3 {
     color: #111111;
     text-align: left;
@@ -821,8 +883,9 @@ header #menu{
     max-width: 100%;
     transition-duration: inherit;
     padding: 30px;
-    
+
 }
+
 .alighLayout3 {
     box-sizing: border-box;
     max-width: 100%;
@@ -838,6 +901,7 @@ header #menu{
     min-height: 498px;
     border: 13px solid transparent;
 }
+
 .containerBoxLay3 {
     text-align: center;
     color: #111111;
@@ -848,6 +912,7 @@ header #menu{
     transition-duration: inherit;
     padding: 30px;
 }
+
 .imageGropu3 {
     text-align: center;
     border-style: none;
@@ -875,19 +940,19 @@ header #menu{
 
 /* Galery */
 
-    /* Gallery */
+/* Gallery */
 .clearfix {
     -webkit-text-size-adjust: 100%;
     font-size: 1rem;
     line-height: 1.6;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #111111;
     box-sizing: border-box;
     display: block;
     position: relative;
 }
 
-.right1{
+.right1 {
     border-style: none;
     position: relative;
     object-fit: cover;
@@ -903,10 +968,11 @@ header #menu{
     margin-right: auto;
     margin-bottom: initial;
     margin-left: 0;
-    
+
 
 }
-.right2{
+
+.right2 {
     border-style: none;
     position: relative;
     object-fit: cover;
@@ -932,15 +998,18 @@ header #menu{
     margin: -924px auto 0;
     pointer-events: none;
 }
+
 .galleryContainer {
     position: relative;
     width: 937px;
     margin: 94px auto 0 102px;
     pointer-events: initial;
 }
+
 .layoutGallery {
     margin: -10px;
 }
+
 .layoutRowGallery {
     display: flex;
     flex: 1 1 100%;
@@ -949,17 +1018,20 @@ header #menu{
     min-height: 100%;
     max-width: 100%;
 }
+
 .galleySize {
     max-height: 100%;
     flex: 0 0 33.33333333%;
     max-width: 33.33333333%;
 }
+
 .layoutColGallery {
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;
     min-height: 100%;
 }
+
 .containerStyleGallery {
     object-fit: cover;
     vertical-align: middle;
@@ -980,11 +1052,13 @@ header #menu{
     background-position: 50% 50%;
     border: 10px solid transparent;
 }
+
 .containerLayoutGallery {
     position: relative;
     flex: 1;
     max-width: 100%;
 }
+
 .containerStyleGallery1 {
     object-fit: cover;
     vertical-align: middle;
@@ -1005,17 +1079,20 @@ header #menu{
     background-position: 50% 50%;
     border: 10px solid transparent;
 }
+
 .galleySize2 {
     max-height: 100%;
     flex: 0 0 33.33333333%;
     max-width: 33.33333333%;
 }
+
 .layoutColGallery2 {
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;
     min-height: 100%;
 }
+
 .containerStyleGallery2 {
     object-fit: cover;
     vertical-align: middle;
@@ -1036,6 +1113,7 @@ header #menu{
     background-position: 50% 50%;
     border: 10px solid transparent;
 }
+
 .containerStyleGallery3 {
     max-width: 100%;
     position: relative;
@@ -1048,6 +1126,7 @@ header #menu{
     min-height: 325px;
     border: 10px solid transparent;
 }
+
 .layoutMiddle {
     position: relative;
     flex: 1;
@@ -1056,6 +1135,7 @@ header #menu{
     flex-direction: column;
     justify-content: center;
 }
+
 .tittleh2 {
     text-align: center;
     word-wrap: break-word;
@@ -1067,6 +1147,7 @@ header #menu{
     position: relative;
     margin: 20px 20px 0;
 }
+
 .textSubGallery {
     background-color: transparent;
     border-top-width: 0 !important;
@@ -1083,6 +1164,7 @@ header #menu{
     font-size: 2rem;
     margin: 10px auto 20px;
 }
+
 .containerStyleGallery4 {
     object-fit: cover;
     vertical-align: middle;
@@ -1103,17 +1185,20 @@ header #menu{
     background-position: 50% 50%;
     border: 10px solid transparent;
 }
+
 .galleySize3 {
     max-height: 100%;
     flex: 0 0 33.33333333%;
     max-width: 33.33333333%;
 }
+
 .layoutColGallery3 {
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;
     min-height: 100%;
 }
+
 .containerStyleGallery5 {
     object-fit: cover;
     vertical-align: middle;
@@ -1134,6 +1219,7 @@ header #menu{
     background-position: 50% 50%;
     border: 10px solid transparent;
 }
+
 .containerStyleGallery6 {
     object-fit: cover;
     vertical-align: middle;
@@ -1158,118 +1244,130 @@ header #menu{
 /* end */
 
 
-    /* form */
+/* form */
 
-    .contact {
-        margin-left: 13.8%;
-        margin-top: 15%;
-        margin-right: 13.8%;
-    }
+.contact {
+    margin-left: 13.8%;
+    margin-top: 15%;
+    margin-right: 13.8%;
+}
 
-    .contact h1 {
-        font-size: 4rem;
-        margin-right: 5%;
-        color: var(--main-color);
-        text-align: end;
-        text-transform: uppercase;
-    }
+.contact h1 {
+    font-size: 4rem;
+    margin-right: 5%;
+    color: var(--main-color);
+    text-align: end;
+    text-transform: uppercase;
+}
 
-    .contact p {
-        font-size: 2.2rem;
-        margin-bottom: 3rem;
-        margin-right: 5%;
-        text-align: end;
-    }
+.contact p {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    margin-right: 5%;
+    text-align: end;
+}
 
-    .contact .row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-        margin-bottom: 2rem;
-    }
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
 
-    .contact .row .image {
-        flex: 1 1 25rem;
-    }
+.contact .row .image {
+    flex: 1 1 25rem;
+}
 
-    .contact .row .image img {
-        width: 90%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 2%;
-    }
+.contact .row .image img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+}
 
-    .contact .row form {
-        flex: 1 1 50rem;
-        padding: 5rem;
-    }
+.contact .row form {
+    flex: 1 1 50rem;
+    padding: 5rem;
+}
 
-    .contact .row form .inputBox select {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+.contact .row form .inputBox select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 
-    .contact .row select,
-    form .inputBox input,
-    .contact .row form textarea {
-        padding: 1rem;
-        margin: 1rem 0;
-        font-size: 1.7rem;
-        color: #333;
-        text-transform: none;
-        border: .1rem solid rgba(0, 0, 0, .3);
-        border-radius: .5rem;
-        width: 49%;
-    }
+.contact .row select,
+form .inputBox input,
+.contact .row form textarea {
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    width: 49%;
+}
 
-    .contact .row form textarea {
-        width: 98%;
-        height: 15rem;
-        resize: none;
-    }
+.contact .row form textarea {
+    width: 98%;
+    height: 15rem;
+    resize: none;
+}
 
-    form .btn{
-        margin-left: 50%;
-        background: var(--primary-color);
-        color: #fff;
-        display: inline-block;
-        border-radius: 1.5rem;
-        box-shadow: var(--box-shadow);
-        padding: 1.2rem 4rem;
-        font-size: 1.7rem;
-        position: relative;
-        z-index: 0;
-        overflow: hidden;
-    }
+form .btn {
+    margin-left: 50%;
+    background: var(--primary-color);
+    color: #fff;
+    display: inline-block;
+    border-radius: 1.5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1.2rem 4rem;
+    font-size: 1.7rem;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
 
-    /* end */
+/* end */
 
-    /* footer */
+/* footer */
 
-    .footer {
-        background: #fff;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+.footer {
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
-    .footer .credit {
-        font-size: 2rem;
-        color: var(--black-color);
-        padding: 1.5rem;
-        font-weight: lighter;
-    }
+.footer .credit {
+    font-size: 2rem;
+    color: var(--black-color);
+    padding: 1.5rem;
+    font-weight: lighter;
+}
 
-    .footer .credit span {
-        color: var(--main-color);
-        font-weight: lighter;
-    }
+.footer .credit span {
+    color: var(--main-color);
+    font-weight: lighter;
+}
 
-    .footer .credit a {
-        color: var(--main-color);
-        font-weight: lighter;
-    }
+.footer .credit a {
+    color: var(--main-color);
+    font-weight: lighter;
+}
 
-    /* end */
+/* end */
+
+/* buttom Whats  */
+
+.whats {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+
+
+/* end */

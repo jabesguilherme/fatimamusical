@@ -146,20 +146,6 @@ header .fa-bars{
     pointer-events: initial;
 }
 
-.bloco{
-    width: 143px;
-    height: 143px;
-    --animation-custom_in-translate_x: -300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
-    margin: -200px auto 0 0;
-    background-color: #127F90;
-    border-radius: 50%;
-    position: relative;
-    box-sizing: border-box;
-}
 
 .casamento1{
     width: 328px;
@@ -226,11 +212,6 @@ header .fa-bars{
 .boxAntesText{
     width: 100%px;
     min-height: 536px;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 300px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 0.3;
     height: auto;
     margin: 65px auto -400px;
     text-align: center;
@@ -252,10 +233,10 @@ header .fa-bars{
     font-size: 5.75rem;
     text-transform: none;
     position: relative;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.1;
     padding: 0;
-    color: #E99C52 !important;
+    color: var(--black-color) !important;
     word-wrap: break-word;
     text-align: center;
 }
@@ -764,34 +745,11 @@ header .fa-bars{
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
-    border-color: #E99C52;
     border-width: 5px;
     border-style: solid;
     box-shadow: 0 0 50px #ccc;
 }
 
-.palette {
-    will-change: transform, opacity;
-    animation-duration: 1500ms;
-    pointer-events: initial;
-    width: 218px;
-    height: 218px;
-    --animation-custom_in-translate_x: 0px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 0.3;
-    margin: -151px auto 0 120px;
-    color: #111111;
-    background-color: #127F90;
-    animation-fill-mode: both;
-    border-radius: 50%;
-    position: relative;
-    border-color: #E99C52;
-    border-width: 5px;
-    border-style: solid;
-    box-shadow: 0 0 50px #ccc;
-}
 
 .image2 {
     pointer-events: initial;
@@ -807,7 +765,6 @@ header .fa-bars{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    border-color: #E99C52;
     border-width: 5px;
     border-style: solid;
     box-shadow: 0 0 50px #ccc;
@@ -827,7 +784,6 @@ header .fa-bars{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    border-color: #127F90;
     border-width: 5px;
     border-style: solid;
     box-shadow: 0 0 50px #ccc;
@@ -933,11 +889,6 @@ header .fa-bars{
     height: 254px;
     background-image: url(https://i.ibb.co/ZN8WdpP/debutante3.jpg);
     background-position: 50% 50%;
-    --animation-custom_in-translate_x: -300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin: 153px auto 0 50px;
     border-radius: 50% !important;
     animation-fill-mode: both;
@@ -957,13 +908,10 @@ header .fa-bars{
     height: 628px;
     background-image: url(https://i.ibb.co/mytxsz8/aniversario2.jpg);
     background-position: 50% 50%;
-    --animation-custom_in-translate_x: 50px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 180deg;
-    --animation-custom_in-scale: 0.3;
     margin: 295px -50px 0 auto;
     border-radius: 50% !important;
+    border-width: 5px;
+    border-style: solid;
     color: #111111;
     animation-fill-mode: both;
     object-fit: cover;
@@ -981,16 +929,10 @@ header .fa-bars{
     height: 435px;
     background-image: url(https://i.ibb.co/qgJphFL/cordas.jpg);
     background-position: 50% 50%;
-    --animation-custom_in-translate_x: -300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin: -646px auto 0 10px;
     stroke: none;
     border-radius: 50% !important;
-    border-color: #127F90;
-    border-width: 20px;
+    border-width: 5px;
     border-style: solid;
     animation-fill-mode: both;
     object-fit: cover;
@@ -1008,11 +950,6 @@ header .fa-bars{
     width: 570px;
     background-image: none;
     height: auto;
-    --animation-custom_in-translate_x: 300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 1;
     margin: -1020px 0 0 auto;
     color: #111111;
     background-color: #ffffff;
@@ -1107,24 +1044,6 @@ header .fa-bars{
     align-items: flex-start;
 }
 
-.palletMontar {
-    will-change: transform, opacity;
-    animation-duration: 1500ms;
-    pointer-events: initial;
-    width: 218px;
-    height: 218px;
-    --animation-custom_in-translate_x: -300px;
-    --animation-custom_in-translate_y: 0px;
-    --animation-custom_in-opacity: 0;
-    --animation-custom_in-rotate: 0deg;
-    --animation-custom_in-scale: 0.3;
-    margin: 715px auto 0 26px;
-    color: #111111;
-    background-color: #127F90;
-    animation-fill-mode: both;
-    border-radius: 50%;
-    position: relative;
-}
 
 /*  end  */
 
@@ -2104,7 +2023,17 @@ form .inputBox input,
 }
 
 
+/* buttom Whats  */
 
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+
+
+/* end */
 
 
 
