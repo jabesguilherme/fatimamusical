@@ -26,7 +26,7 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
-    background-image: url(https://i.ibb.co/s2X4SKH/background.png);
+    background-image: url(https://i.ibb.co/r7B18DN/background-Casamento.png);
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -181,12 +181,14 @@ header #menu{
 }
 .containerBox {
     position: relative;
-    width: 1140px !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 804px;
     pointer-events: none;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 }
 .containerStyle {
     position: relative;
@@ -299,6 +301,8 @@ header #menu{
     pointer-events: initial;
     will-change: transform, opacity;
     animation-duration: 1250ms;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 
 }
 .containerBoxText {
@@ -314,6 +318,8 @@ header #menu{
     flex-direction: column;
     justify-content: center;
     padding: 30px 45px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 }
 .tittleExemplos {
     text-align: left;
@@ -436,6 +442,8 @@ header #menu{
     pointer-events: initial;
     will-change: transform, opacity;
     animation-duration: 750ms;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 
 }
 .containerBoxText1 {
@@ -452,6 +460,8 @@ header #menu{
     flex-direction: column;
     justify-content: center;
     padding: 20px 20px 20px 40px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 }
 .textExemplo1 {
     line-height: 1.6;
@@ -468,6 +478,8 @@ header #menu{
     font-size: 1.125rem;
     font-weight: 700;
     margin: 0;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -1151,7 +1163,7 @@ header #menu{
 
 .contact p {
     font-size: 2.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-right: 5%;
     text-align: end;
 }

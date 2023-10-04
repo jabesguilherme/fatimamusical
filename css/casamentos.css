@@ -138,7 +138,7 @@ header .fa-bars{
     min-height: 1394px;
     display: flex;
     margin-left: 20%;
-    margin-top: -8%;
+    margin-top: 12%;
     justify-content: center;
     flex-direction: column;
     position: relative;
@@ -162,6 +162,7 @@ header .fa-bars{
     box-sizing: border-box;
     border-style: none;
     animation-fill-mode: both;
+    margin-top: -80%;
 
 }
 
@@ -210,10 +211,9 @@ header .fa-bars{
 }
 
 .boxAntesText{
-    width: 100%px;
-    min-height: 536px;
+    width: 20px;
     height: auto;
-    margin: 65px auto -400px;
+    margin-top: 10%;
     text-align: center;
     display: flex;
     flex-shrink: 0;
@@ -233,17 +233,16 @@ header .fa-bars{
     font-size: 5.75rem;
     text-transform: none;
     position: relative;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.1;
     padding: 0;
-    color: var(--black-color) !important;
+    color: #ffffff !important;
     word-wrap: break-word;
     text-align: center;
 }
 .textTopo1 {
     line-height: 2;
     font-size: 2.125rem;
-    margin: 20px 0 0 ;
     position: relative;
     font-weight: 300;
     word-wrap: break-word;
@@ -251,24 +250,22 @@ header .fa-bars{
     margin-block-start: 1em;
     margin-block-end: 1em;
     text-align: center;
+    color: #ffffff;
 }
-.botton1{
-    color: #127F90 !important;
-    border-width: 2px;
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    font-weight: 700;
-    margin-left: 45%;
-    border-style: solid;
-    padding: 17px 54px 18px;
-    border-color: #E99C52 !important;
-    background-color: transparent !important;
-    stroke: none;
+.textTopo2 {
+    line-height: 2;
+    font-size: 2.125rem;
+    margin-bottom: -50%;
     position: relative;
-    border-radius: 10px !important;
+    font-weight: 300;
+    word-wrap: break-word;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+    color: #ffffff;
 }
+
 
 /* end */
 
@@ -1050,15 +1047,14 @@ header .fa-bars{
 /* form */
 
 .contact {
-    text-align: center;
-    margin-right: -10%;
-    margin-left: 5%;
-    
+    margin-left: 13.8%;
+    margin-top: 15%;
+    margin-right: 13.8%;
 }
 
 .contact h1 {
     font-size: 4rem;
-    margin-right: 15%;
+    margin-right: 5%;
     color: var(--main-color);
     text-align: end;
     text-transform: uppercase;
@@ -1066,8 +1062,8 @@ header .fa-bars{
 
 .contact p {
     font-size: 2.2rem;
-    margin-bottom: 3rem;
-    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-right: 5%;
     text-align: end;
 }
 
@@ -1076,8 +1072,6 @@ header .fa-bars{
     flex-wrap: wrap;
     gap: 1.5rem;
     margin-bottom: 2rem;
-    margin-right: 10%;
-    
 }
 
 .contact .row .image {
@@ -1085,7 +1079,7 @@ header .fa-bars{
 }
 
 .contact .row .image img {
-    width: 70%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
     border-radius: 2%;
@@ -1100,7 +1094,6 @@ header .fa-bars{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 8px;
 }
 
 
@@ -1118,10 +1111,13 @@ form .inputBox input,
 }
 
 .contact .row form textarea {
-    width: 99%;
+    width: 98%;
     height: 15rem;
     resize: none;
-    margin-left: 8px;
+}
+
+form .btn{
+    margin-left: 64%;
 }
 
 /* end */

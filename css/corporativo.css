@@ -191,25 +191,26 @@ header .bx-menu {
     background-image: url("https://i.ibb.co/BTxQjD9/musicos.jpg");
     background-position: 100%;
     text-align: center;
-    overflow: visible;
 }
 
 .containerBox {
 
     position: relative;
-    width: 1140px !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 804px;
     pointer-events: none;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 }
 
 .containerStyle {
     position: relative;
     display: flex;
     text-align: center;
-    width: 1140px;
+    width: 100%;
     min-height: 688px;
 }
 
@@ -222,8 +223,6 @@ header .bx-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--box-shadow);
-    padding: 30px;
 }
 
 .tittleInicio {
@@ -243,7 +242,7 @@ header .bx-menu {
     font-size: 6rem;
     font-weight: 700;
     text-align: center;
-    margin-left: 50%;
+    margin-left: 30%;
 }
 
 .textInicio {
@@ -254,7 +253,8 @@ header .bx-menu {
     flex-shrink: 0;
     word-wrap: break-word;
     position: relative;
-    margin-left: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 0;
     margin-top: 20px;
     font-size: 3rem;
@@ -486,6 +486,8 @@ header .bx-menu {
     pointer-events: initial;
     will-change: transform, opacity;
     animation-duration: 750ms;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 
 }
 
@@ -517,8 +519,8 @@ header .bx-menu {
     color: #127F90 !important;
     position: relative;
     text-align: left;
-    font-size: 1.125rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -543,6 +545,7 @@ header .bx-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .tittleGroup {
@@ -695,7 +698,6 @@ header .bx-menu {
     flex: 30 0 auto;
     text-align: left;
     min-height: 269px;
-    border: 13px solid transparent;
 }
 
 .boxLayout2 {
@@ -732,7 +734,6 @@ header .bx-menu {
     flex: 20 0 auto;
     text-align: left;
     min-height: 154px;
-    border: 13px solid transparent;
 }
 
 .boxContainerline {
@@ -827,7 +828,6 @@ header .bx-menu {
     flex: 20 0 auto;
     text-align: left;
     min-height: 147px;
-    border: 13px solid transparent;
 }
 
 .containerLayout4 {
@@ -871,7 +871,6 @@ header .bx-menu {
     flex: 30 0 auto;
     text-align: left;
     min-height: 280px;
-    border: 13px solid transparent;
 }
 
 .containerLayout3 {
@@ -883,6 +882,7 @@ header .bx-menu {
     max-width: 100%;
     transition-duration: inherit;
     padding: 30px;
+
 
 }
 
@@ -1262,7 +1262,7 @@ header .bx-menu {
 
 .contact p {
     font-size: 2.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-right: 5%;
     text-align: end;
 }

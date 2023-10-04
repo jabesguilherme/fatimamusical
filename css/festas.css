@@ -308,32 +308,19 @@ header #menu{
 
 .aboutFesta {
     -webkit-text-size-adjust: 100%;
+    margin-top: 30%;
     font-size: 1rem;
     line-height: 1.6;
     font-family: 'Relaway',sans-serif;
-    color: #111111;
-    box-sizing: border-box;
     display: block;
     position: relative;
+    background-color: #ffffff;
     
-}
-.imageRight {
-    border-style: none;
-    position: relative;
-    object-fit: cover;
-    display: block;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    color: #111111;
-    overflow: hidden;
-    width: 100%;
-    height: 455px;
 }
 .containerTextAbout {
     position: relative;
-    width: 1240px;
-    min-height: 532px;
+    width: 100%;
+    min-height: 332px;
     margin: -532px auto 0;
     pointer-events: none;
 }
@@ -362,6 +349,7 @@ header #menu{
     font-family: 'Raleway', sans-serif;
     position: relative;
     margin: 40px 20px 0;
+    text-transform: uppercase;
 }
 .subTittleAbout {
     color: inherit;
@@ -395,7 +383,7 @@ header #menu{
     color: #E99C52 !important;
     font-style: italic;
     position: relative;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 11px 24px 40px;
 }
 
@@ -412,14 +400,15 @@ header #menu{
     display: block;
     position: relative;
     color: #111111;
-    background-color: #f2f2f2;
     background-image: none;
+    background-color: #ffffff;
 }
 .container {
     margin: 0 auto;
     width: 1140px;
     min-height: 861px;
     pointer-events: none;
+    
 }
 
 .containerCenter {
@@ -450,7 +439,7 @@ header #menu{
     box-sizing: border-box;
     word-wrap: break-word;
     color: #127F90 !important;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 6rem;
     line-height: 1.1;
     margin-top: 20px;
@@ -461,7 +450,6 @@ header #menu{
     margin-bottom: 0;
 }
 .subTittleServices {
-
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     line-height: 1.2;
@@ -494,7 +482,7 @@ header #menu{
 }
 .layoutServices {
     position: relative;
-    width: 1132px;
+    width: 100%;
     margin: 119px auto 43px 0;
     pointer-events: initial;
 }
@@ -509,17 +497,19 @@ header #menu{
     min-height: 100%;
     max-width: 100%;
 }
+
 .styleBoxContainer1 {
     max-height: 100%;
+    max-width: 100%;
     position: relative;
     display: flex;
     background-clip: padding-box;
     background-origin: padding-box;
     background-color: transparent !important;
     opacity: 1;
-    flex: 0 0 33.33333333%;
-    max-width: 33.33333333%;
-    min-height: 410px;
+    flex: 0 0 13.33333333%;
+    max-width: 100%;
+    min-height: 210px;
     border: 10px solid transparent;
 }
 .styleContainer1 {
@@ -531,7 +521,7 @@ header #menu{
 }
 .imageService1 {
     border-style: solid;
-    border-color: #E99C52;
+    border-color: #127F90;
     object-fit: cover;
     display: block;
     background-size: cover;
@@ -540,10 +530,10 @@ header #menu{
     position: relative;
     color: #111111;
     overflow: hidden;
-    height: 360px;
+    height: 260px;
     object-position: 50% 17.23%;
     background-position: 50% 17.23%;
-    width: 360px;
+    width: 260px;
     margin: -79px 0 0 auto;
 }
 .textCard1 {
@@ -565,10 +555,10 @@ header #menu{
     background-origin: padding-box;
     background-color: transparent !important;
     opacity: 1;
-    flex: 0 0 33.33333333%;
-    max-width: 33.33333333%;
+    flex: 0 0 23.33333333%;
+    max-width: 23.33333333%;
     background-image: none;
-    min-height: 410px;
+    min-height: 210px;
     border: 10px solid transparent;
 }
 .styleContainer2 {
@@ -580,7 +570,7 @@ header #menu{
 }
 .imageService2 {
     border-style: solid;
-    border-color: #127F90;
+    border-color: #E99C52;
     object-fit: cover;
     display: block;
     background-size: cover;
@@ -590,8 +580,8 @@ header #menu{
     position: relative;
     color: #111111;
     overflow: hidden;
-    height: 360px;
-    width: 360px;
+    height: 260px;
+    width: 260px;
     margin: -79px auto 0;
 }
 .textCard2 {
@@ -613,10 +603,10 @@ header #menu{
     background-origin: padding-box;
     background-color: transparent !important;
     opacity: 1;
-    flex: 0 0 33.33333333%;
-    max-width: 33.33333333%;
+    flex: 0 0 23.33333333%;
+    max-width: 23.33333333%;
     background-image: none;
-    min-height: 410px;
+    min-height: 210px;
     border: 10px solid transparent;
 }
 .styleContainer3 {
@@ -628,6 +618,55 @@ header #menu{
 }
 .imageService3 {
     border-style: solid;
+    border-color: #127F90;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50% !important;
+    position: relative;
+    color: #111111;
+    overflow: hidden;
+    height: 260px;
+    width: 260px;
+    margin: -79px auto 0;
+}
+.textCard3 {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    word-wrap: break-word;
+    position: relative;
+    color: #E99C52 !important;
+    font-size: 2.25rem;
+    margin: 30px 20px 36px;
+}
+
+.styleBoxContainer4 {
+    max-height: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    flex: 0 0 23.33333333%;
+    max-width: 23.33333333%;
+    background-image: none;
+    min-height: 210px;
+    border: 10px solid transparent;
+}
+.styleContainer4 {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.imageService4 {
+    border-style: solid;
     border-color: #E99C52;
     object-fit: cover;
     display: block;
@@ -638,11 +677,11 @@ header #menu{
     position: relative;
     color: #111111;
     overflow: hidden;
-    height: 360px;
-    width: 360px;
+    height: 260px;
+    width: 260px;
     margin: -79px auto 0;
 }
-.textCard3 {
+.textCard4 {
     font-family: Roboto,sans-serif;
     font-weight: 400;
     line-height: 1.2;
@@ -667,44 +706,8 @@ header #menu{
     box-sizing: border-box;
     display: block;
     position: relative;
+    margin-top: 60%;
 }
-
-.right1{
-    border-style: none;
-    position: relative;
-    object-fit: cover;
-    display: block;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    color: #111111;
-    overflow: hidden;
-    width: calc(((100% - 1140px) / 2) + 309px);
-    height: 322px;
-    margin-top: 0;
-    margin-right: auto;
-    margin-bottom: initial;
-    margin-left: 0;
-
-}
-.right2{
-    border-style: none;
-    position: relative;
-    object-fit: cover;
-    display: block;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    color: #111111;
-    overflow: hidden;
-    width: calc(((100% - 1140px) / 3) + 239px);
-    height: 351px;
-    margin-top: 251px;
-    margin-right: 0;
-    margin-bottom: initial;
-    margin-left: auto;
-}
-
 
 .u-clearfix {
     position: relative;
@@ -840,7 +843,7 @@ header #menu{
 .tittleh2 {
     text-align: center;
     word-wrap: break-word;
-    color: #E99C52 !important;
+    color: #ffffff !important;
     font-weight: 400;
     font-size: 4rem;
     line-height: 1.1;
@@ -860,7 +863,7 @@ header #menu{
     align-self: flex-start;
     text-decoration: none;
     position: relative;
-    color: #127F90 !important;
+    color: #ffffff !important;
     font-size: 2rem;
     margin: 10px auto 20px;
 }
@@ -958,7 +961,7 @@ header #menu{
 
 .contact p {
     font-size: 2.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-right: 5%;
     text-align: end;
 }
