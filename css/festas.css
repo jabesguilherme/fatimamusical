@@ -535,7 +535,13 @@ header #menu{
     background-position: 50% 17.23%;
     width: 260px;
     margin: -79px 0 0 auto;
+    transition: 1s;
 }
+
+.imageService1:hover{
+    transform: scale(1.1);
+}
+
 .textCard1 {
     font-family: Roboto,sans-serif;
     font-weight: 400;
@@ -583,7 +589,13 @@ header #menu{
     height: 260px;
     width: 260px;
     margin: -79px auto 0;
+    transition: 1s;
 }
+
+.imageService2:hover{
+    transform: scale(1.1);
+}
+
 .textCard2 {
     font-family: Roboto,sans-serif;
     font-weight: 400;
@@ -631,7 +643,13 @@ header #menu{
     height: 260px;
     width: 260px;
     margin: -79px auto 0;
+    transition: 1s;
 }
+
+.imageService3:hover{
+    transform: scale(1.1);
+}
+
 .textCard3 {
     font-family: Roboto,sans-serif;
     font-weight: 400;
@@ -680,7 +698,13 @@ header #menu{
     height: 260px;
     width: 260px;
     margin: -79px auto 0;
+    transition: 1s;
 }
+
+.imageService4:hover{
+    transform: scale(1.1);
+}
+
 .textCard4 {
     font-family: Roboto,sans-serif;
     font-weight: 400;
@@ -863,7 +887,7 @@ header #menu{
     align-self: flex-start;
     text-decoration: none;
     position: relative;
-    color: #ffffff !important;
+    color: #E99C52 !important;
     font-size: 2rem;
     margin: 10px auto 20px;
 }

@@ -727,6 +727,7 @@ header .bx-menu {
     margin-left: 200px;
     margin-top: 15%;
     position: relative;
+    color:#E99C52;
 }
 
 .coments-text p {
@@ -742,6 +743,7 @@ header .bx-menu {
 .coments-text .heading {
     display: flex;
     text-transform: uppercase;
+    color: #E99C52;
 }
 
 .slide-container {
@@ -861,11 +863,14 @@ header .bx-menu {
 .social {
     margin-top: 16%;
     margin-left: 200px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
 }
 
 .social .heading {
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--main-color);
+    padding-top: 10%;
 }
 
 .social .row {
@@ -881,22 +886,21 @@ header .bx-menu {
 
 .social .row .content h3 {
     font-size: 3rem;
-    color: var(--black-color);
+    color: var(--main-color);
     padding: 1rem 0;
 
 }
 
 .social .row .content p {
     font-size: 1.9rem;
-    color: #000000;
+    color: #E99C52;
     padding: 1rem 0;
     line-height: 2;
 }
 
 .social ul li {
-    font-size: 3.5rem;
-    color: #fff inherit;
-    text-decoration: none;
+    font-size: 3rem;
+    color: #E99C52, inherit,currentColor;
     text-transform: uppercase;
 
 }
@@ -904,7 +908,7 @@ header .bx-menu {
 
 .social ul li i {
     font-size: 3.5rem;
-    color: var(--primary-color);
+    color: var(--main-color);
     padding-right: 1rem;
 }
 
@@ -918,7 +922,7 @@ header .bx-menu {
     width: 30%;
     height: 20%;
     margin-left: 50%;
-    margin-top: -36%;
+    margin-top: -40%;
 }
 
 
@@ -1072,9 +1076,9 @@ form .btn{
     }
 
     .about-text {
-        margin-left: 13.8%;
+        margin-left: 16%;
         padding-bottom: 30px;
-        margin-right: 13.8%;
+        margin-right: 16%;
         text-align: justify;
     }
     .about-text .heading{
@@ -1329,7 +1333,9 @@ form .btn{
     
     /* social */
 
-
+    .social{
+        margin-right: 10%;
+    }
     .social ul li {
         font-size: 3rem;
 
@@ -1369,5 +1375,4 @@ form .btn{
     }
 
 
-        
     }

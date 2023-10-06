@@ -274,7 +274,6 @@ header .fa-bars{
 
 .ContainerDicas {
     overflow: visible;
-    background-image: url(https://i.ibb.co/yQtGVd7/fundocasamentos.jpg);
     text-align: center;
     object-fit: cover;
     display: block;
@@ -294,14 +293,15 @@ header .fa-bars{
 }
 
 .TitleDicas {
-    width: 816px;
-    margin: 70px auto 0;
+    width: 1140px;
     font-size: 5rem;
     line-height: 1.1;
-    font-weight: 400;
+    font-weight: 500;
     padding: 0;
     color: #111111 !important;
-    margin-left: 100px;
+    margin-left: -30px;
+    margin-right: 80px;
+    margin-bottom: 30px;
 }
 .container-Box {
     margin-top: 22px;
@@ -513,11 +513,11 @@ header .fa-bars{
     margin-right: 0 !important;
 }
 .TitleEscolhas {
-    width: 797px;
+    width: 1140px;
     font-size: 5rem;
     margin: -534px auto 0;
     line-height: 1.1;
-    font-weight: 300;
+    font-weight: 400;
     padding: 0;
     word-wrap: break-word;
     position: relative;
@@ -525,7 +525,7 @@ header .fa-bars{
 }
 .TextEscolhas {
     font-style: italic;
-    width: 578px;
+    width: 1140px;
     font-size: 2rem;
     margin: 20px auto 0;
     line-height: 2;
@@ -1048,7 +1048,7 @@ header .fa-bars{
 
 .contact {
     margin-left: 13.8%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-right: 13.8%;
 }
 
