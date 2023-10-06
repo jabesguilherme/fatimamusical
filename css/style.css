@@ -1722,7 +1722,7 @@ form .btn{
     }
     }
 
-    @media screen and (max-width:1200px) {
+    @media screen and (max-width:1025px) {
 
         body {
             width: 100%;
@@ -1980,13 +1980,13 @@ form .btn{
     .wrapI {
         width: 800px;
         margin-top: 300px;
-        margin-left: 575px;
+        margin-left: 500px;
     }
 
 
     .btnInstrument {
         margin-left: 41%;
-        padding-top: 35%;
+        padding-top: 45%;
 
     }
 
