@@ -1,3 +1,18 @@
+// buttons perguntas frequentes
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach(faq => {
+    faq.addEventListener("click", () =>{
+        faq.classList.toggle("active");
+    });
+});
+
+
+
+
+// dividindo
+
 let navbar = document.querySelector('navbar');
 
 document.querySelector('#menu').onclick = () =>{
@@ -115,35 +130,11 @@ wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
 
 
-
-// Buttons scrolling slider coments
-
-let count = 1;
-const maxCount = 4;
-
-// Defina a função para avançar para a próxima imagem
-function nextImage() {
-    count++;
-    if (count > maxCount) {
-        count = 1;
-    }
-    const radioId = "radio" + count;
-    document.getElementById(radioId).checked = true;
-}
-
-// Inicialize o intervalo para mudar de imagem a cada 5 segundos
-const interval = setInterval(nextImage, 5000);
-
-// Certifique-se de que o intervalo seja limpo quando necessário (por exemplo, ao parar a rotação)
-function stopRotation() {
-    clearInterval(interval);
-}
-;
-
+// Initialize coments button
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
-    grabCursor: true,
+    spaceBetween: 30,
     loop: true,
     pagination: {
       el: ".swiper-pagination",

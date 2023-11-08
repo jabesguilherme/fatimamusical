@@ -147,9 +147,10 @@ header .fa-bars{
 }
 
 
+
 .casamento1{
-    width: 328px;
-    height: 328px;
+    width: 428px;
+    height: 428px;
     background-image: url(/img/Galeria/casamento1.jpg);
     background-position: 50% 50%;
     margin: 200px auto 0 0;
@@ -162,7 +163,7 @@ header .fa-bars{
     box-sizing: border-box;
     border-style: none;
     animation-fill-mode: both;
-    margin-top: -80%;
+    margin-top: -70%;
 
 }
 
@@ -179,6 +180,7 @@ header .fa-bars{
     background-repeat: no-repeat;
     border-style: none;
     animation-fill-mode: both;
+    margin-bottom: 10%;
 }
 
 .casamento3{
@@ -186,14 +188,9 @@ header .fa-bars{
     height: 502px;
     margin: -177px auto 0 264px;
     background-position: 50% 50%;
-    stroke: none;
     border-radius: 50% !important;
-    overflow: hidden;
-    border-color: #E99C52;
-    border-width: 20px;
-    border-style: solid;
-    animation-fill-mode: both;
 }
+
 
 .casamento4{
     width: 250px;
@@ -1043,6 +1040,252 @@ header .fa-bars{
 
 
 /*  end  */
+
+/* Gallery */
+.clearfix {
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    margin-top: 60%;
+}
+
+.u-clearfix {
+    position: relative;
+    width: 1140px;
+    min-height: 924px;
+    margin: -924px auto 0;
+    pointer-events: none;
+}
+.galleryContainer {
+    position: relative;
+    width: 937px;
+    margin: 94px auto 0 102px;
+    pointer-events: initial;
+}
+.layoutGallery {
+    margin: -10px;
+}
+.layoutRowGallery {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+}
+.galleySize {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/YTydHms/IMG-9388.jpg");
+    min-height: 348px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerLayoutGallery {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+}
+.containerStyleGallery1 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/Hh3HZx5/IMG-1273-jpg.jpg");
+    min-height: 347px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.galleySize2 {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery2 {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery2 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 20 0 33.33333333%;
+    background-image: url("https://i.ibb.co/VCZgfy0/IMG-6424-jpg.jpg");
+    min-height: 397px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerStyleGallery3 {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    flex: 20 0 33.33333333%;
+    min-height: 325px;
+    border: 10px solid transparent;
+}
+.layoutMiddle {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+.tittleh2 {
+    text-align: center;
+    word-wrap: break-word;
+    color: #ffffff !important;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 1.1;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 20px 20px 0;
+}
+.textSubGallery {
+    background-color: transparent;
+    border-top-width: 0 !important;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    display: table;
+    border-style: solid;
+    border-bottom-width: 0;
+    white-space: nowrap;
+    align-self: flex-start;
+    text-decoration: none;
+    position: relative;
+    color: #E99C52 !important;
+    font-size: 2rem;
+    margin: 10px auto 20px;
+}
+.containerStyleGallery4 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 20 0 33.33333333%;
+    background-image: url("https://i.ibb.co/LhNW2pX/IMG-6415-jpg.jpg");
+    min-height: 335px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.galleySize3 {
+    max-height: 100%;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.layoutColGallery3 {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    min-height: 100%;
+}
+.containerStyleGallery5 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/k81Vz1X/IMG-6567-jpg.jpg");
+    min-height: 348px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+.containerStyleGallery6 {
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    background-color: transparent !important;
+    opacity: 1;
+    color: #111111;
+    overflow: visible;
+    flex: 30 0 50%;
+    background-image: url("https://i.ibb.co/xsYqFnx/IMG-9174.jpg");
+    min-height: 347px;
+    background-position: 50% 50%;
+    border: 10px solid transparent;
+}
+
+
+/* end */
 
 /* form */
 
