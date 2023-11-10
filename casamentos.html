@@ -63,7 +63,7 @@
         <div class="imagesTopo" id="imagesTopo">
             <div class="casamento1"></div>
             <img class="casamento2" src="https://i.ibb.co/rbg28P1/IMG-9273-jpg.jpg" alt="">
-            <img class="casamento3" src="https://i.ibb.co/S03sV3d/IMG-6173.jpg" alt="">
+            <img class="casamento3" src="https://i.ibb.co/ydXN7b8/Satisfac-a-o.jpg" alt="">
             <img class="casamento4" src="https://i.ibb.co/Qfrs3T5/IMG-4450-jpg.jpg" alt="">
             <div class="bloco"></div>
             <div class="boxAntesText"></div>
@@ -259,43 +259,47 @@
 <!--  Form -->
 
 <section class="contact" id="contact">
-  <h1 class="heading">A música espera por você</h1>
-  <p>Preencha o formulário e dê o primeiro passo para a sua jornada inesquecível.</p>
+    <h1 class="heading">A música espera por você</h1>
+    <p>Preencha o formulário e dê o primeiro passo para a sua jornada inesquecível.</p>
     <p>Entraremos em contato o mais breve possível.</p>
 
-  <div class="row">
-      <div class="image">
-          <img src="https://i.ibb.co/9y6wJz5/Batera-Footer.gif" alt="">
-      </div>
+    <div class="row">
+        <div class="image">
+            <img src="https://i.ibb.co/9y6wJz5/Batera-Footer.gif" alt="">
+        </div>
 
-      <form action="">
+        <form action="https://api.staticforms.xyz/submit" method="post">
 
-          <div class="inputBox">
-              <input type="text" placeholder="Seu Nome">
-              <input type="email" placeholder="Seu Email">
-          </div>
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="Seu Nome" autocomplete="off" required>
+                <input type="email" name="email" placeholder="Seu Email" autocomplete="off" required>
+            </div>
 
-          <div class="inputBox">
-              <input type="tel" placeholder="Celular">
-              <input type="text" placeholder="Assunto">
-          </div>
-          <div class="inputBox">
-              <select name="plataforma" required="required" aria-placeholder="Onde Conheceu">
-                  <option value="">Onde Conheceu o Músical Fátima</option>
-                  <option value="instagram">Instagram</option>
-                  <option value="facebook">Facebook</option>
-                  <option value="youtube">Youtube</option>
-                  <option value="evento">Evento</option>
-                  <option value="indicação">Indicação</option>
-              </select>
-          </div>
+            <div class="inputBox">
+                <input type="text" name="phone" placeholder="Celular" autocomplete="off" required>
+                <input type="text" name="text" placeholder="Tipo de Evento" autocomplete="off" required>
+            </div>
+            <div class="inputBox">
+                <select name="plataforma" aria-placeholder="Onde Conheceu" required>
+                    <option value="">Onde Conheceu o Músical Fátima</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="evento">Evento</option>
+                    <option value="indicação">Indicação</option>
+                </select>
+            </div>
 
 
-          <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-          <a href="#" class="btn">Enviar Mensagem</a>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Mensagem" autocomplete="off" required></textarea>
+            <button class="btn" type="submit">Enviar</button>
 
-      </form>
-  </div>
+            <input type="hidden" name="accessKey" value=""> <!--Código recebido no email.-->
+
+            <input type="hidden" name="redirectTo" value=""> <!-- Optional -->
+
+        </form>
+    </div>
 </section>
 
 

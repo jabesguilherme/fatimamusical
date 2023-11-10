@@ -205,26 +205,26 @@
 <section class="contact" id="contact">
   <h1 class="heading">A música espera por você</h1>
   <p>Preencha o formulário e dê o primeiro passo para a sua jornada inesquecível.</p>
-    <p>Entraremos em contato o mais breve possível.</p>
+  <p>Entraremos em contato o mais breve possível.</p>
 
   <div class="row">
       <div class="image">
           <img src="https://i.ibb.co/9y6wJz5/Batera-Footer.gif" alt="">
       </div>
 
-      <form action="">
+      <form action="https://api.staticforms.xyz/submit" method="post">
 
           <div class="inputBox">
-              <input type="text" placeholder="Seu Nome">
-              <input type="email" placeholder="Seu Email">
+              <input type="text" name="name" placeholder="Seu Nome" autocomplete="off" required>
+              <input type="email" name="email" placeholder="Seu Email" autocomplete="off" required>
           </div>
 
           <div class="inputBox">
-              <input type="tel" placeholder="Celular">
-              <input type="text" placeholder="Assunto">
+              <input type="text" name="phone" placeholder="Celular" autocomplete="off" required>
+              <input type="text" name="text" placeholder="Tipo de Evento" autocomplete="off" required>
           </div>
           <div class="inputBox">
-              <select name="plataforma" required="required" aria-placeholder="Onde Conheceu">
+              <select name="plataforma" aria-placeholder="Onde Conheceu" required>
                   <option value="">Onde Conheceu o Músical Fátima</option>
                   <option value="instagram">Instagram</option>
                   <option value="facebook">Facebook</option>
@@ -235,8 +235,12 @@
           </div>
 
 
-          <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-          <a href="#" class="btn">Enviar Mensagem</a>
+          <textarea name="message" id="" cols="30" rows="10" placeholder="Mensagem" autocomplete="off" required></textarea>
+          <button class="btn" type="submit">Enviar</button>
+
+          <input type="hidden" name="accessKey" value=""> <!--Código recebido no email.-->
+
+          <input type="hidden" name="redirectTo" value=""> <!-- Optional -->
 
       </form>
   </div>

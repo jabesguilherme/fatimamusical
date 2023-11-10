@@ -146,8 +146,6 @@ header .fa-bars{
     pointer-events: initial;
 }
 
-
-
 .casamento1{
     width: 428px;
     height: 428px;
@@ -294,6 +292,7 @@ header .fa-bars{
     font-size: 5rem;
     line-height: 1.1;
     font-weight: 500;
+    text-transform: uppercase;
     padding: 0;
     color: #111111 !important;
     margin-left: -30px;
@@ -325,7 +324,7 @@ header .fa-bars{
     background-image: none;
     text-align: left;
     color: #111111;
-    background-color: #fafaf5;
+    background-color: #e99b52dc;
     display: flex;
     position: relative;
     border-radius: 5%;
@@ -351,7 +350,7 @@ header .fa-bars{
     display: table;
     align-self: flex-start;
     width: fit-content;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2rem;
     line-height: 1.2;
     color: inherit;
@@ -362,7 +361,7 @@ header .fa-bars{
     margin-top: 20px;
     line-height: 2;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #111111 !important;
     word-wrap: break-word;
     position: relative;
@@ -377,7 +376,7 @@ header .fa-bars{
     background-image: none;
     text-align: left;
     color: #111111;
-    background-color: #fafaf5;
+    background-color: #e99b52dc;
     display: flex;
     position: relative;
     border-radius: 5%;
@@ -399,7 +398,7 @@ header .fa-bars{
     background-image: none;
     text-align: left;
     color: #111111;
-    background-color: #fafaf5;
+    background-color: #e99b52dc;
     display: flex;
     position: relative;
     border-radius: 5%;
@@ -421,7 +420,7 @@ header .fa-bars{
     background-image: none;
     text-align: left;
     color: #111111;
-    background-color: #fafaf5;
+    background-color: #e99b52dc;
     display: flex;
     border-radius: 5%;
     position: relative;
@@ -443,7 +442,7 @@ header .fa-bars{
     background-image: none;
     text-align: left;
     color: #111111;
-    background-color: #fafaf5;
+    background-color: #e99b52dc;
     display: flex;
     position: relative;
     border-radius: 5%;
@@ -465,7 +464,7 @@ header .fa-bars{
     background-image: none;
     text-align: left;
     color: #111111;
-    background-color: #fafaf5;
+    background-color: #e99b52dc;
     display: flex;
     position: relative;
     border-radius: 5%;

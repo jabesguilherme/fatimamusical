@@ -740,8 +740,11 @@ header .bx-menu {
 
 .coments-text p {
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 600;
     padding: 0 300px;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-align: center;
 }
 
 .btnComents {
@@ -973,9 +976,6 @@ form .inputBox input,
     resize: none;
 }
 
-form .btn{
-    margin-left: 64%;
-}
 
 /* end */
 
